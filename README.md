@@ -1,0 +1,1 @@
+# Blockads in adguard
