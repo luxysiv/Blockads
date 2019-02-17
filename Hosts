@@ -111,10 +111,10 @@
 0.0.0.0    api.app1vn.com
 0.0.0.0    org.zaloapp.ads.zdn.vn
 0.0.0.0    zalo-ads-td.zadn.vn
-ad.360in.com
-reports.crashlytics.com
-attr.appsflyer.com
-gstaticadssl.l.google.com
-static.doubleclick.net
-4hag.adj.st
+0.0.0.0    ad.360in.com
+0.0.0.0    reports.crashlytics.com
+0.0.0.0    attr.appsflyer.com
+0.0.0.0    gstaticadssl.l.google.com
+0.0.0.0    static.doubleclick.net
+0.0.0.0    4hag.adj.st
 
