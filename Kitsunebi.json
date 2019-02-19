@@ -1,0 +1,176 @@
+{
+  "inbounds" : [
+    {
+      "port" : 1087,
+      "settings" : {
+        "allowTransparent" : true
+      },
+      "listen" : "127.0.0.1",
+      "streamSettings" : {
+
+      },
+      "protocol" : "http"
+    }
+  ],
+  "log" : {
+    "loglevel" : "none"
+  },
+  "policy" : {
+    "levels" : {
+      "0" : {
+        "downlinkOnly" : 0,
+        "connIdle" : 5,
+        "handshake" : 4,
+        "uplinkOnly" : 0
+      },
+      "2018" : {
+        "downlinkOnly" : 0,
+        "connIdle" : 5,
+        "handshake" : 4,
+        "uplinkOnly" : 0
+      }
+    }
+  },
+  "dns" : {
+    "hosts" : {
+
+    },
+    "servers" : [
+
+    ]
+  },
+  "outbounds" : [
+    {
+      "settings" : {
+        "domainStrategy" : "UseIP",
+        "userLevel" : 2018
+      },
+      "streamSettings" : {
+
+      },
+      "protocol" : "freedom",
+      "tag" : "direct"
+    },
+    {
+      "settings" : {
+        "servers" : [
+          {
+            "address" : "127.0.0.1",
+            "port" : 443,
+            "users" : [
+              {
+                "pass" : "manhduong",
+                "user" : "manhduong"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "tlsSettings" : {
+          "allowInsecure" : true
+        },
+        "network" : "tcp",
+        "security" : "none",
+        "tcpSettings" : {
+          "header" : {
+            "type" : "none"
+          }
+        }
+      },
+      "mux" : {
+        "enabled" : false,
+        "concurrency" : 8
+      },
+      "protocol" : "socks",
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "blackhole",
+      "tag" : "block",
+      "settings" : {
+
+      }
+    }
+  ],
+  "routing" : {
+    "domainStrategy" : "IPIfNonMatch",
+    "rules" : [
+      {
+        "type" : "field",
+        "domain" : [
+          "googlesyndication.com",
+          "google-analytics.com",
+          "chartboost.com",
+          "ad-brix.com",
+          "impact.applifier.com",
+          "adcolony.com",
+          "startappservice.com",
+          "www.adtilt.com",
+          "www.gstatic.com",
+          "app-measurement.com",
+          "appsflyer.com",
+          "cf.iadsdk.apple.com",
+          "adtimaserver.vn",
+          "adtima-media.zadn.vn",
+          "ng-vn-notice.gameitop.com",
+          "crashlytics.com",
+          "ailamtrieuphu.com",
+          "track.clickhubs.com",
+          "trk.superads.cn",
+          "adthor.com",
+          "pokkt.fuse-ad.com",
+          "zcoup.com",
+          "ocsp.apple.com",
+          "tok.leadloss.com",
+          "ads.aerserv.com",
+          "mopub.com",
+          "appnext.com",
+          "rayjump.com",
+          "ads.api.vungle.com",
+          "moatads.com",
+          "flurry.com",
+          "gum.criteo.com",
+          "www.vungle.com",
+          "ios.bugly.qq.com",
+          "ulogs.umeng.com",
+          "sec.umeng.com",
+          "api.leanplum.com",
+          "eclick.vn",
+          "apinas.nct.vn",
+          "app.adjust.com",
+          "www.googleadservices.com",
+          "log4x.nixcdn.com",
+          "stc-nas.nixcdn.com",
+          "mvas.mobifone.vn",
+          "dangky.mobifone.vn",
+          "mpay.nct.vn",
+          "sb.scorecardresearch.com",
+          "vta.nixcdn.com",
+          "bs.serving-sys.com",
+          "lrc.nct.nixcdn.com",
+          "midasplayer.com",
+          "servicelayer.king.com",
+          "unityads.unity3d.com",
+          "tracking.prd.mz.internal.unity3d.com",
+          "jianchiapp.com",
+          "www.googletagservices.com",
+          "tapjoyads.com",
+          "tapjoy.com",
+          "adservice.google.com",
+          "api.appodeal.com",
+          "applovin.com",
+          "applvn.com",
+          "api.app1vn.com",
+          "org.zaloapp.ads.zdn.vn",
+          "zalo-ads-td.zadn.vn",
+          "ad.360in.com",
+          "gstaticadssl.l.google.com",
+          "doubleclick.net",
+          "4hag.adj.st"
+        ],
+        "outboundTag" : "block"
+      }
+    ]
+  }
+}
