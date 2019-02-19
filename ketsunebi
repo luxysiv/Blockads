@@ -1,4 +1,4 @@
-
+[SERVER]
 
 [Rule]
 DOMAIN-KEYWORD,googlesyndication.com,REJECT
