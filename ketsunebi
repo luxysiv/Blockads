@@ -1,5 +1,4 @@
-[General]
-loglevel = notify
+
 
 [Rule]
 DOMAIN-KEYWORD,googlesyndication.com,REJECT
