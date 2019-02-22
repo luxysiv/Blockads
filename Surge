@@ -1,0 +1,91 @@
+[General]
+loglevel = notify
+
+
+[Rule]
+URL-REGEX,^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info,REJECT
+DOMAIN-KEYWORD,googlesyndication.com,REJECT
+DOMAIN-KEYWORD,google-analytics.com,REJECT
+DOMAIN-KEYWORD,chartboost.com,REJECT
+DOMAIN-KEYWORD,ad-brix.com,REJECT
+DOMAIN-KEYWORD,impact.applifier.com,REJECT
+DOMAIN-KEYWORD,adcolony.com,REJECT
+DOMAIN-KEYWORD,startappservice.com,REJECT
+DOMAIN-KEYWORD,www.adtilt.com,REJECT
+DOMAIN-KEYWORD,www.gstatic.com,REJECT
+DOMAIN-KEYWORD,app-measurement.com,REJECT
+DOMAIN-KEYWORD,appsflyer.com,REJECT
+DOMAIN-KEYWORD,cf.iadsdk.apple.com,REJECT
+DOMAIN-KEYWORD,adtimaserver.vn,REJECT
+DOMAIN-KEYWORD,adtima-media.zadn.vn,REJECT
+DOMAIN-KEYWORD,ng-vn-notice.gameitop.com,REJECT
+DOMAIN-KEYWORD,crashlytics.com,REJECT
+DOMAIN-KEYWORD,ailamtrieuphu.com,REJECT
+DOMAIN-KEYWORD,track.clickhubs.com,REJECT
+DOMAIN-KEYWORD,trk.superads.cn,REJECT
+DOMAIN-KEYWORD,adthor.com,REJECT
+DOMAIN-KEYWORD,pokkt.fuse-ad.com,REJECT
+DOMAIN-KEYWORD,zcoup.com,REJECT
+DOMAIN-KEYWORD,ocsp.apple.com,REJECT
+DOMAIN-KEYWORD,tok.leadloss.com,REJECT
+DOMAIN-KEYWORD,ads.aerserv.com,REJECT
+DOMAIN-KEYWORD,mopub.com,REJECT
+DOMAIN-KEYWORD,appnext.com,REJECT
+DOMAIN-KEYWORD,rayjump.com,REJECT
+DOMAIN-KEYWORD,ads.api.vungle.com,REJECT
+DOMAIN-KEYWORD,moatads.com,REJECT
+DOMAIN-KEYWORD,flurry.com,REJECT
+DOMAIN-KEYWORD,gum.criteo.com,REJECT
+DOMAIN-KEYWORD,www.vungle.com,REJECT
+DOMAIN-KEYWORD,ios.bugly.qq.com,REJECT
+DOMAIN-KEYWORD,ulogs.umeng.com,REJECT
+DOMAIN-KEYWORD,sec.umeng.com,REJECT
+DOMAIN-KEYWORD,api.leanplum.com,REJECT
+DOMAIN-KEYWORD,eclick.vn,REJECT
+DOMAIN-KEYWORD,apinas.nct.vn,REJECT
+DOMAIN-KEYWORD,app.adjust.com,REJECT
+DOMAIN-KEYWORD,www.googleadservices.com,REJECT
+DOMAIN-KEYWORD,log4x.nixcdn.com,REJECT
+DOMAIN-KEYWORD,stc-nas.nixcdn.com,REJECT
+DOMAIN-KEYWORD,mvas.mobifone.vn,REJECT
+DOMAIN-KEYWORD,dangky.mobifone.vn,REJECT
+DOMAIN-KEYWORD,mpay.nct.vn,REJECT
+DOMAIN-KEYWORD,sb.scorecardresearch.com,REJECT
+DOMAIN-KEYWORD,vta.nixcdn.com,REJECT
+DOMAIN-KEYWORD,bs.serving-sys.com,REJECT
+DOMAIN-KEYWORD,lrc.nct.nixcdn.com,REJECT
+DOMAIN-KEYWORD,midasplayer.com,REJECT
+DOMAIN-KEYWORD,servicelayer.king.com,REJECT
+DOMAIN-KEYWORD,unityads.unity3d.com,REJECT
+DOMAIN-KEYWORD,tracking.prd.mz.internal.unity3d.com,REJECT
+DOMAIN-KEYWORD,jianchiapp.com,REJECT
+DOMAIN-KEYWORD,www.googletagservices.com,REJECT
+DOMAIN-KEYWORD,tapjoyads.com,REJECT
+DOMAIN-KEYWORD,tapjoy.com,REJECT
+DOMAIN-KEYWORD,adservice.google.com,REJECT
+DOMAIN-KEYWORD,api.appodeal.com,REJECT
+DOMAIN-KEYWORD,applovin.com,REJECT
+DOMAIN-KEYWORD,applvn.com,REJECT
+DOMAIN-KEYWORD,api.app1vn.com,REJECT
+DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
+DOMAIN-KEYWORD,zalo-ads-td.zadn.vn,REJECT
+DOMAIN-KEYWORD,ad.360in.com,REJECT
+DOMAIN-KEYWORD,gstaticadssl.l.google.com,REJECT
+DOMAIN-KEYWORD,doubleclick.net,REJECT
+DOMAIN-KEYWORD,4hag.adj.st,REJECT
+FINAL,DIRECT
+
+[URL Rewrite]
+https://graph.nhaccuatui.com/.+/adv - reject
+https://graph.nhaccuatui.com/.+/commons/version? - reject
+https://youtubei.googleapis.com/youtubei/.+/log_event - reject
+https://www.youtube.com/pagead - reject
+https://s.youtube.com/api/stats/qoe?event - reject
+https://www.youtube.com/ptracking - reject
+https://www.youtube.com/api/stats/ads - reject
+https://.+.googlevideo.com/.+ctier - reject
+https://.+.googlevideo.com/.+&oad - reject
+https://s.youtube.com/api/.+adformat - reject
+
+[MITM]
+hostname = graph.nhaccuatui.com, www.youtube.com, youtubei.googleapis.com, *.googlevideo.com, s.youtube.com
