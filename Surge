@@ -3,6 +3,9 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-KEYWORD,supersonicads,REJECT
+DOMAIN-SUFFIX,appbaqend.com,REJECT
+DOMAIN-SUFFIX,smaato.net,REJECT
 URL-REGEX,^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info,REJECT
 DOMAIN-KEYWORD,googlesyndication.com,REJECT
 DOMAIN-KEYWORD,google-analytics.com,REJECT
