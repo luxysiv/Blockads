@@ -1,18 +1,5 @@
-# 20190222_202812
-
 [SERVER]
 
-[SOURCE]
-
-[BACKUP-SERVER]
-
-[SUSPEND-SSID]
-
-[POLICY]
-
-[DNS]
-
-[REWRITE]
 
 [URL-REJECTION]
 https://.+.googlevideo.com/.+&oad
