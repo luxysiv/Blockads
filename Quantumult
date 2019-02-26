@@ -51,7 +51,6 @@ HOST-KEYWORD,moatads.com,REJECT
 HOST-KEYWORD,flurry.com,REJECT
 HOST-KEYWORD,gum.criteo.com,REJECT
 HOST-KEYWORD,www.vungle.com,REJECT
-HOST-KEYWORD,ios.bugly.qq.com,REJECT
 HOST-KEYWORD,ulogs.umeng.com,REJECT
 HOST-KEYWORD,sec.umeng.com,REJECT
 HOST-KEYWORD,api.leanplum.com,REJECT
