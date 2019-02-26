@@ -40,7 +40,6 @@ DOMAIN-KEYWORD,moatads.com,REJECT
 DOMAIN-KEYWORD,flurry.com,REJECT
 DOMAIN-KEYWORD,gum.criteo.com,REJECT
 DOMAIN-KEYWORD,www.vungle.com,REJECT
-DOMAIN-KEYWORD,ios.bugly.qq.com,REJECT
 DOMAIN-KEYWORD,ulogs.umeng.com,REJECT
 DOMAIN-KEYWORD,sec.umeng.com,REJECT
 DOMAIN-KEYWORD,api.leanplum.com,REJECT
