@@ -157,13 +157,13 @@
     "levels" : {
       "2018" : {
         "uplinkOnly" : 0,
-        "connIdle" : 60,
+        "connIdle" : 5,
         "handshake" : 4,
         "downlinkOnly" : 0
       },
       "0" : {
         "uplinkOnly" : 0,
-        "connIdle" : 60,
+        "connIdle" : 5,
         "handshake" : 4,
         "downlinkOnly" : 0
       }
