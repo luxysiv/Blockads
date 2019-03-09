@@ -3,6 +3,7 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-KEYWORD,revmob.com,REJECT
 DOMAIN-KEYWORD,supersonicads,REJECT
 DOMAIN-SUFFIX,appbaqend.com,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
