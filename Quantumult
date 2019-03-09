@@ -15,6 +15,7 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+HOST-KEYWORD,revmob.com,REJECT
 HOST-KEYWORD,supersonicads,REJECT
 HOST-KEYWORD,appbaqend.com,REJECT
 HOST-KEYWORD,smaato.net,REJECT
