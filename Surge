@@ -3,6 +3,15 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-SUFFIX,360in.com,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
+DOMAIN-SUFFIX,batmobi.net,REJECT
+DOMAIN-SUFFIX,duapps.com,REJECT
+DOMAIN-SUFFIX,mobtrack.co,REJECT
+DOMAIN,track.56txs4.com,REJECT
+DOMAIN,tracking.lenzmx.com,REJECT
+DOMAIN-SUFFIX,leadbolt.net,REJECT
+DOMAIN,ads.gold,REJECT
 DOMAIN-KEYWORD,revmob.com,REJECT
 DOMAIN-KEYWORD,supersonicads,REJECT
 DOMAIN-SUFFIX,appbaqend.com,REJECT
