@@ -15,6 +15,15 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+DOMAIN-SUFFIX,360in.com,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
+DOMAIN-SUFFIX,batmobi.net,REJECT
+DOMAIN-SUFFIX,duapps.com,REJECT
+DOMAIN-SUFFIX,mobtrack.co,REJECT
+DOMAIN,track.56txs4.com,REJECT
+DOMAIN,tracking.lenzmx.com,REJECT
+DOMAIN-SUFFIX,leadbolt.net,REJECT
+DOMAIN,ads.gold,REJECT
 HOST-KEYWORD,revmob.com,REJECT
 HOST-KEYWORD,supersonicads,REJECT
 HOST-KEYWORD,appbaqend.com,REJECT
