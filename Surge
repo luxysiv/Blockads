@@ -3,6 +3,20 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-SUFFIX,mobtrack.co,REJECT
+DOMAIN,admile.offerstrack.net,REJECT
+DOMAIN-SUFFIX,rdtcdn.com,REJECT
+DOMAIN-SUFFIX,cdn.livechatinc.com,REJECT
+DOMAIN-SUFFIX,bootstrapcdn.com,REJECT
+DOMAIN-SUFFIX,trafficjunky.net,REJECT
+DOMAIN-SUFFIX,exosrv.com,REJECT
+DOMAIN-SUFFIX,trafficfactory.biz,REJECT
+DOMAIN-SUFFIX,criteo.net,REJECT
+DOMAIN,imgraovat.vnecdn.net,REJECT
+DOMAIN-SUFFIX,polyad.net,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN,advert.hiby.com,REJECT
 DOMAIN-SUFFIX,360in.com,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,batmobi.net,REJECT
@@ -81,7 +95,6 @@ DOMAIN-KEYWORD,applvn.com,REJECT
 DOMAIN-KEYWORD,api.app1vn.com,REJECT
 DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
 DOMAIN-KEYWORD,zalo-ads-td.zadn.vn,REJECT
-DOMAIN-KEYWORD,ad.360in.com,REJECT
 DOMAIN-KEYWORD,gstaticadssl.l.google.com,REJECT
 DOMAIN-KEYWORD,doubleclick.net,REJECT
 DOMAIN-KEYWORD,4hag.adj.st,REJECT
