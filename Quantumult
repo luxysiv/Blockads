@@ -15,6 +15,20 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+DOMAIN-SUFFIX,mobtrack.co,REJECT
+DOMAIN,admile.offerstrack.net,REJECT
+DOMAIN-SUFFIX,rdtcdn.com,REJECT
+DOMAIN-SUFFIX,cdn.livechatinc.com,REJECT
+DOMAIN-SUFFIX,bootstrapcdn.com,REJECT
+DOMAIN-SUFFIX,trafficjunky.net,REJECT
+DOMAIN-SUFFIX,exosrv.com,REJECT
+DOMAIN-SUFFIX,trafficfactory.biz,REJECT
+DOMAIN-SUFFIX,criteo.net,REJECT
+DOMAIN,imgraovat.vnecdn.net,REJECT
+DOMAIN-SUFFIX,polyad.net,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN,advert.hiby.com,REJECT
 DOMAIN-SUFFIX,360in.com,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,batmobi.net,REJECT
@@ -92,7 +106,6 @@ HOST-KEYWORD,applvn.com,REJECT
 HOST-KEYWORD,api.app1vn.com,REJECT
 HOST-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
 HOST-KEYWORD,zalo-ads-td.zadn.vn,REJECT
-HOST-KEYWORD,ad.360in.com,REJECT
 HOST-KEYWORD,gstaticadssl.l.google.com,REJECT
 HOST-KEYWORD,doubleclick.net,REJECT
 HOST-KEYWORD,4hag.adj.st,REJECT
