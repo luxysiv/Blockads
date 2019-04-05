@@ -15,6 +15,8 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+DOMAIN-SUFFIX,adtarget.tech,REJECT
+DOMAIN-SUFFIX,sdkclick.com,REJECT
 DOMAIN-SUFFIX,mobtrack.co,REJECT
 DOMAIN,admile.offerstrack.net,REJECT
 DOMAIN-SUFFIX,rdtcdn.com,REJECT
