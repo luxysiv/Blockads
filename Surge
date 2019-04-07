@@ -3,6 +3,8 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-SUFFIX,adxxx.info,REJECT
+DOMAIN-SUFFIX,clickopop1000.com,REJECT
 DOMAIN-SUFFIX,adtarget.tech,REJECT
 DOMAIN-SUFFIX,sdkclick.com,REJECT
 DOMAIN-SUFFIX,mobtrack.co,REJECT
