@@ -54,7 +54,6 @@ HOST-KEYWORD,impact.applifier.com,REJECT
 HOST-KEYWORD,adcolony.com,REJECT
 HOST-KEYWORD,startappservice.com,REJECT
 HOST-KEYWORD,www.adtilt.com,REJECT
-HOST-KEYWORD,www.gstatic.com,REJECT
 HOST-KEYWORD,app-measurement.com,REJECT
 HOST-KEYWORD,appsflyer.com,REJECT
 HOST-KEYWORD,cf.iadsdk.apple.com,REJECT
