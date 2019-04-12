@@ -3,6 +3,7 @@ loglevel = notify
 
 
 [Rule]
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
 DOMAIN-SUFFIX,userreport.com,REJECT
 DOMAIN,blueserving.com,REJECT
