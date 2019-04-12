@@ -15,6 +15,7 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
 DOMAIN-SUFFIX,userreport.com,REJECT
 DOMAIN,blueserving.com,REJECT
