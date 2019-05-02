@@ -15,6 +15,8 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN,ad-tag.inner-active.mobi,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
 DOMAIN-SUFFIX,userreport.com,REJECT
@@ -133,4 +135,3 @@ STATE,AUTO
 
 [MITM]
 hostname = graph.nhaccuatui.com, www.youtube.com, youtubei.googleapis.com, *.googlevideo.com, s.youtube.com
-
