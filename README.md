@@ -1,2 +1,2 @@
-# Blockads in adguard
+# Block ads
 And quantumult,surge and shadowrocket
