@@ -3,6 +3,7 @@ loglevel = notify
 allow-wifi-access = false
 ipv6 = false
 network-framework = true
+dns-server = 1.1.1.1, 8.8.8.8, system
 
 [Replica]
 hide-apple-request = false
