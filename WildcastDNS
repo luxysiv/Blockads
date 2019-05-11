@@ -1,0 +1,51 @@
+[General]
+loglevel = notify
+allow-wifi-access = false
+ipv6 = false
+network-framework = true
+dns-server = 1.1.1.1, 8.8.8.8, system
+
+[Replica]
+hide-apple-request = false
+hide-crashlytics-request = false
+hide-udp = false
+
+[Rule]
+FINAL,DIRECT
+
+[Host]
+*crashlytics* = 0.0.0.0
+*adtimaserver* = 0.0.0.0
+*ad-brix* = 0.0.0.0
+*chartboost* = 0.0.0.0
+*unityads* = 0.0.0.0
+*tapjoy* = 0.0.0.0
+app.adjust.com = 0.0.0.0
+ocsp.apple.com = 0.0.0.0
+ng-vn-notice.gameitop.com = 0.0.0.0
+adservice* = 0.0.0.0
+*doubleclick* = 0.0.0.0
+*googletagmanager* = 0.0.0.0
+zalo-ads-td.zadn.vn = 0.0.0.0
+org.zaloapp.ads.zdn.vn = 0.0.0.0
+*appsflyer* = 0.0.0.0
+*leanplum* = 0.0.0.0
+app-measurement.com = 0.0.0.0
+*adcolony* = 0.0.0.0
+*moatads* = 0.0.0.0
+*mopub* = 0.0.0.0
+*smaato* = 0.0.0.0
+*appbaqend* = 0.0.0.0
+*adthor* = 0.0.0.0
+*superads* = 0.0.0.0
+*mobtrack* = 0.0.0.0
+pagead2* = 0.0.0.0
+*googleadservices* = 0.0.0.0
+*google-analytics* = 0.0.0.0
+*flurry* = 0.0.0.0
+*vungle* = 0.0.0.0
+*applovin* = 0.0.0.0
+*startappservice* = 0.0.0.0
+servicelayer.king.com = 0.0.0.0
+*.midasplayer.com = 0.0.0.0
+*eclick* = 0.0.0.0
