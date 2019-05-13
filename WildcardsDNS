@@ -2,7 +2,7 @@
 loglevel = notify
 allow-wifi-access = false
 ipv6 = false
-network-framework = true
+network-framework = false
 dns-server = 1.1.1.1, 8.8.8.8, system
 
 [Replica]
@@ -11,6 +11,7 @@ hide-crashlytics-request = false
 hide-udp = false
 
 [Rule]
+URL-REGEX,http://graph.nhaccuatui.com/.+/3g-get-info,REJECT
 FINAL,DIRECT
 
 [Host]
@@ -50,3 +51,5 @@ servicelayer.king.com = 0.0.0.0
 *.midasplayer.com = 0.0.0.0
 *eclick* = 0.0.0.0
 *applvn* = 0.0.0.0
+*rayjump.* = 0.0.0.0
+*criteo* = 0.0.0.0
