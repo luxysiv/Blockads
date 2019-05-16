@@ -124,6 +124,7 @@ HOST-KEYWORD,zalo-ads-td.zadn.vn,REJECT
 HOST-KEYWORD,gstaticadssl.l.google.com,REJECT
 HOST-KEYWORD,doubleclick.net,REJECT
 HOST-KEYWORD,4hag.adj.st,REJECT
+DOMAIN-KEYORD,ads.google.com,REJECT
 FINAL,DIRECT
 
 [GLOBAL]
