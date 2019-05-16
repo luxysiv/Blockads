@@ -11,6 +11,7 @@ hide-crashlytics-request = false
 hide-udp = false
 
 [Rule]
+DOMAIN-KEYWORD,ads.google.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN,ad-tag.inner-active.mobi,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
