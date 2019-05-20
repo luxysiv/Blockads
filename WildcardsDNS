@@ -1,11 +1,9 @@
 [General]
 loglevel = notify
 allow-wifi-access = false
-ipv6 = false
-network-framework = false
+ipv6 = true
+network-framework = true
 dns-server = 1.1.1.1, 8.8.8.8, system
-
-[SERVER]
 
 [Replica]
 hide-apple-request = false
@@ -56,3 +54,6 @@ servicelayer.king.com = 0.0.0.0
 *rayjump* = 0.0.0.0
 *criteo* = 0.0.0.0
 *ads.google* = 0.0.0.0
+*admicro* = 0.0.0.0
+*googletagservices* = 0.0.0.0
+*polyad* = 0.0.0.0
