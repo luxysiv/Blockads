@@ -1,0 +1,152 @@
+[General]
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlytics.com,captive.apple.com
+bypass-system = true
+loglevel = notify
+allow-wifi-access = false
+ipv6 = true
+network-framework = true
+dns-server = system
+
+
+[Rule]
+DOMAIN-KEYWORD,ads.google.com,REJECT
+DOMAIN-KEYWORD,adnxs.com,REJECT
+DOMAIN-KEYWORD,ad-tag.inner-active.mobi,REJECT
+DOMAIN-KEYWORD,amazon-adsystem.com,REJECT
+DOMAIN-KEYWORD,blueseed.tv,REJECT
+DOMAIN-KEYWORD,userreport.com,REJECT
+DOMAIN-KEYWORD,blueserving.com,REJECT
+DOMAIN-KEYWORD,ambientplatform.vn,REJECT
+DOMAIN-KEYWORD,gammaplatform.com,REJECT
+DOMAIN-KEYWORD,aj1010.online,REJECT
+DOMAIN-KEYWORD,mgid.com,REJECT
+DOMAIN-KEYWORD,scorecardresearch.com,REJECT
+DOMAIN-KEYWORD,admicro.vn,REJECT
+DOMAIN-KEYWORD,adxxx.info,REJECT
+DOMAIN-KEYWORD,clickopop1000.com,REJECT
+DOMAIN-KEYWORD,adtarget.tech,REJECT
+DOMAIN-KEYWORD,sdkclick.com,REJECT
+DOMAIN-KEYWORD,mobtrack.co,REJECT
+DOMAIN-KEYWORD,admile.offerstrack.net,REJECT
+DOMAIN-KEYWORD,rdtcdn.com,REJECT
+DOMAIN-KEYWORD,cdn.livechatinc.com,REJECT
+DOMAIN-KEYWORD,bootstrapcdn.com,REJECT
+DOMAIN-KEYWORD,trafficjunky.net,REJECT
+DOMAIN-KEYWORD,exosrv.com,REJECT
+DOMAIN-KEYWORD,trafficfactory.biz,REJECT
+DOMAIN-KEYWORD,criteo.net,REJECT
+DOMAIN-KEYWORD,imgraovat.vnecdn.net,REJECT
+DOMAIN-KEYWORD,polyad.net,REJECT
+DOMAIN-KEYWORD,umeng.com,REJECT
+DOMAIN-KEYWORD,bugly.qq.com,REJECT
+DOMAIN-KEYWORD,advert.hiby.com,REJECT
+DOMAIN-KEYWORD,360in.com,REJECT
+DOMAIN-KEYWORD,growingio.com,REJECT
+DOMAIN-KEYWORD,batmobi.net,REJECT
+DOMAIN-KEYWORD,duapps.com,REJECT
+DOMAIN-KEYWORD,mobtrack.co,REJECT
+DOMAIN-KEYWORD,track.56txs4.com,REJECT
+DOMAIN-KEYWORD,tracking.lenzmx.com,REJECT
+DOMAIN-KEYWORD,leadbolt.net,REJECT
+DOMAIN-KEYWORD,ads.gold,REJECT
+DOMAIN-KEYWORD,revmob.com,REJECT
+DOMAIN-KEYWORD,supersonicads,REJECT
+DOMAIN-KEYWORD,appbaqend.com,REJECT
+DOMAIN-KEYWORD,smaato.net,REJECT
+URL-REGEX,^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info,REJECT
+DOMAIN-KEYWORD,googlesyndication.com,REJECT
+DOMAIN-KEYWORD,google-analytics.com,REJECT
+DOMAIN-KEYWORD,chartboost.com,REJECT
+DOMAIN-KEYWORD,ad-brix.com,REJECT
+DOMAIN-KEYWORD,impact.applifier.com,REJECT
+DOMAIN-KEYWORD,adcolony.com,REJECT
+DOMAIN-KEYWORD,startappservice.com,REJECT
+DOMAIN-KEYWORD,www.adtilt.com,REJECT
+DOMAIN-KEYWORD,app-measurement.com,REJECT
+DOMAIN-KEYWORD,appsflyer.com,REJECT
+DOMAIN-KEYWORD,cf.iadsdk.apple.com,REJECT
+DOMAIN-KEYWORD,adtimaserver.vn,REJECT
+DOMAIN-KEYWORD,adtima-media.zadn.vn,REJECT
+DOMAIN-KEYWORD,ng-vn-notice.gameitop.com,REJECT
+DOMAIN-KEYWORD,crashlytics.com,REJECT
+DOMAIN-KEYWORD,ailamtrieuphu.com,REJECT
+DOMAIN-KEYWORD,track.clickhubs.com,REJECT
+DOMAIN-KEYWORD,trk.superads.cn,REJECT
+DOMAIN-KEYWORD,adthor.com,REJECT
+DOMAIN-KEYWORD,pokkt.fuse-ad.com,REJECT
+DOMAIN-KEYWORD,zcoup.com,REJECT
+DOMAIN-KEYWORD,ocsp.apple.com,REJECT
+DOMAIN-KEYWORD,tok.leadloss.com,REJECT
+DOMAIN-KEYWORD,ads.aerserv.com,REJECT
+DOMAIN-KEYWORD,mopub.com,REJECT
+DOMAIN-KEYWORD,appnext.com,REJECT
+DOMAIN-KEYWORD,rayjump.com,REJECT
+DOMAIN-KEYWORD,ads.api.vungle.com,REJECT
+DOMAIN-KEYWORD,moatads.com,REJECT
+DOMAIN-KEYWORD,flurry.com,REJECT
+DOMAIN-KEYWORD,gum.criteo.com,REJECT
+DOMAIN-KEYWORD,www.vungle.com,REJECT
+DOMAIN-KEYWORD,ulogs.umeng.com,REJECT
+DOMAIN-KEYWORD,sec.umeng.com,REJECT
+DOMAIN-KEYWORD,api.leanplum.com,REJECT
+DOMAIN-KEYWORD,eclick.vn,REJECT
+DOMAIN-KEYWORD,apinas.nct.vn,REJECT
+DOMAIN-KEYWORD,app.adjust.com,REJECT
+DOMAIN-KEYWORD,www.googleadservices.com,REJECT
+DOMAIN-KEYWORD,log4x.nixcdn.com,REJECT
+DOMAIN-KEYWORD,stc-nas.nixcdn.com,REJECT
+DOMAIN-KEYWORD,mvas.mobifone.vn,REJECT
+DOMAIN-KEYWORD,dangky.mobifone.vn,REJECT
+DOMAIN-KEYWORD,mpay.nct.vn,REJECT
+DOMAIN-KEYWORD,sb.scorecardresearch.com,REJECT
+DOMAIN-KEYWORD,vta.nixcdn.com,REJECT
+DOMAIN-KEYWORD,bs.serving-sys.com,REJECT
+DOMAIN-KEYWORD,lrc.nct.nixcdn.com,REJECT
+DOMAIN-KEYWORD,midasplayer.com,REJECT
+DOMAIN-KEYWORD,servicelayer.king.com,REJECT
+DOMAIN-KEYWORD,unityads.unity3d.com,REJECT
+DOMAIN-KEYWORD,tracking.prd.mz.internal.unity3d.com,REJECT
+DOMAIN-KEYWORD,jianchiapp.com,REJECT
+DOMAIN-KEYWORD,www.googletagservices.com,REJECT
+DOMAIN-KEYWORD,tapjoyads.com,REJECT
+DOMAIN-KEYWORD,tapjoy.com,REJECT
+DOMAIN-KEYWORD,adservice.google.com,REJECT
+DOMAIN-KEYWORD,api.appodeal.com,REJECT
+DOMAIN-KEYWORD,applovin.com,REJECT
+DOMAIN-KEYWORD,applvn.com,REJECT
+DOMAIN-KEYWORD,api.app1vn.com,REJECT
+DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
+DOMAIN-KEYWORD,zalo-ads-td.zadn.vn,REJECT
+DOMAIN-KEYWORD,gstaticadssl.l.google.com,REJECT
+DOMAIN-KEYWORD,doubleclick.net,REJECT
+DOMAIN-KEYWORD,4hag.adj.st,REJECT
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,109.239.140.0/24,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+FINAL,DIRECT
+
+[Host]
+localhost = 127.0.0.1
+
+[URL Rewrite]
+https://graph.nhaccuatui.com/.+/adv - reject
+https://graph.nhaccuatui.com/.+/commons/version? - reject
+https://youtubei.googleapis.com/youtubei/.+/log_event - reject
+https://www.youtube.com/pagead - reject
+https://s.youtube.com/api/stats/qoe?event - reject
+https://www.youtube.com/ptracking - reject
+https://www.youtube.com/api/stats/ads - reject
+https://.+.googlevideo.com/.+ctier - reject
+https://.+.googlevideo.com/.+&oad - reject
+https://s.youtube.com/api/.+adformat - reject
+
+
+
+[MITM]
+hostname = graph.nhaccuatui.com, www.youtube.com, youtubei.googleapis.com, *.googlevideo.com, s.youtube.com
