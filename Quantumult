@@ -15,6 +15,7 @@ https://graph.nhaccuatui.com/.+/adv
 ^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
 
 [TCP]
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN,ad-tag.inner-active.mobi,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
