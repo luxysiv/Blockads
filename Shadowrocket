@@ -10,6 +10,7 @@ dns-server = system
 
 
 [Rule]
+DOMAIN,tvnotice.kg.garena.vn,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-KEYWORD,ads.google.com,REJECT
 DOMAIN-KEYWORD,adnxs.com,REJECT
