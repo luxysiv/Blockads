@@ -126,6 +126,7 @@ HOST-KEYWORD,gstaticadssl.l.google.com,REJECT
 HOST-KEYWORD,doubleclick.net,REJECT
 HOST-KEYWORD,4hag.adj.st,REJECT
 DOMAIN-KEYORD,ads.google.com,REJECT
+DOMAIN,tvnotice.kg.garena.vn,REJECT
 FINAL,DIRECT
 
 [GLOBAL]
