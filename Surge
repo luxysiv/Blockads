@@ -11,6 +11,7 @@ hide-crashlytics-request = false
 hide-udp = false
 
 [Rule]
+DOMAIN,tvnotice.kg.garena.vn,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-KEYWORD,ads.google.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
