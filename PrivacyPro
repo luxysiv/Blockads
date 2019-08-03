@@ -1,0 +1,78 @@
+{
+  "https:\/\/req.startappservice.com\/1.4\/" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "google-analytics.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "jp.zaloapp.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "ocsp.apple.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "smaato.net" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "ad-brix.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "bugly.qq.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "beacon.qq.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "app-measurement.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "log.baomoi.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "zalo-ads.zadn.vn" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "startappservice.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "ssl-google-analytics.l.google.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "appbaqend.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "ng-vn-notice.gameitop.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "adtimaserver.vn" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "adtima-media.zadn.vn" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "tvnotice.kg.garena.vn" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "www.googletagmanager.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  }
+}
