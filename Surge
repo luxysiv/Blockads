@@ -11,9 +11,10 @@ hide-crashlytics-request = false
 hide-udp = false
 
 [Rule]
+DOMAIN,zalo-ads.zadn.vn,REJECT
 DOMAIN,tvnotice.kg.garena.vn,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
-DOMAIN-KEYWORD,ads.google.com,REJECT
+DOMAIN,ads.google.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN,ad-tag.inner-active.mobi,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
@@ -53,12 +54,12 @@ DOMAIN,track.56txs4.com,REJECT
 DOMAIN,tracking.lenzmx.com,REJECT
 DOMAIN-SUFFIX,leadbolt.net,REJECT
 DOMAIN,ads.gold,REJECT
-DOMAIN-KEYWORD,revmob.com,REJECT
-DOMAIN-KEYWORD,supersonicads,REJECT
+DOMAIN,revmob.com,REJECT
+DOMAIN,supersonicads,REJECT
 DOMAIN-SUFFIX,appbaqend.com,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
 URL-REGEX,^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info,REJECT
-DOMAIN-KEYWORD,googlesyndication.com,REJECT
+DOMAIN,googlesyndication.com,REJECT
 DOMAIN-KEYWORD,google-analytics.com,REJECT
 DOMAIN-KEYWORD,chartboost.com,REJECT
 DOMAIN-KEYWORD,ad-brix.com,REJECT
