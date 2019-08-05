@@ -1,45 +1,45 @@
 {
-  "ocsp.apple.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "adtimaserver.vn" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "appbaqend.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "ssl-google-analytics.l.google.com" : {
+  "zalo-ads.zadn.vn" : {
     "redirect" : "127.0.0.1",
     "ttl" : 60
   },
   "smaato.net" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "polyad.net" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
   },
   "www.googletagservices.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "google-analytics.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "log.baomoi.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "imgraovat.vnecdn.net" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
   },
   "bugly.qq.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "ssl-google-analytics.l.google.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "crashlytics.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "appsflyer-web-7-644333284.eu-west-1.elb.amazonaws.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "adtima-media.zadn.vn" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "ad-brix.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "ocsp.apple.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "adtimaserver.vn" : {
     "redirect" : "127.0.0.1",
     "ttl" : 60
   },
@@ -47,39 +47,11 @@
     "ttl" : 60,
     "redirect" : "127.0.0.1"
   },
-  "shop.vnexpress.net" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "ad-brix.com" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "sdk.iad-01.braze.com" : {
+  "ng-vn-notice.gameitop.com" : {
     "redirect" : "127.0.0.1",
     "ttl" : 60
   },
-  "app-measurement.com" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "zalo-ads.zadn.vn" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "beacon.qq.com" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "www.googletagmanager.com" : {
-    "ttl" : 60,
-    "redirect" : "127.0.0.1"
-  },
-  "startappservice.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
-  "https:\/\/req.startappservice.com\/1.4\/" : {
+  "log.baomoi.com" : {
     "ttl" : 60,
     "redirect" : "127.0.0.1"
   },
@@ -87,12 +59,52 @@
     "ttl" : 60,
     "redirect" : "127.0.0.1"
   },
-  "ng-vn-notice.gameitop.com" : {
+  "appsflyer.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "imgraovat.vnecdn.net" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "app-measurement.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "beacon.qq.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "https:\/\/req.startappservice.com\/1.4\/" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
+  },
+  "polyad.net" : {
     "ttl" : 60,
     "redirect" : "127.0.0.1"
   },
-  "adtima-media.zadn.vn" : {
+  "sdk.iad-01.braze.com" : {
     "ttl" : 60,
     "redirect" : "127.0.0.1"
+  },
+  "appbaqend.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "google-analytics.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "www.googletagmanager.com" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "shop.vnexpress.net" : {
+    "ttl" : 60,
+    "redirect" : "127.0.0.1"
+  },
+  "startappservice.com" : {
+    "redirect" : "127.0.0.1",
+    "ttl" : 60
   }
 }
