@@ -1,119 +1,119 @@
-pagead2.googlesyndication.com
-tpc.googlesyndication.com
-www.google-analytics.com
-googleads.g.doubleclick.net
-settings.crashlytics.com
-ssl.google-analytics.com
-live.chartboost.com
-tracking.ad-brix.com
-config.ad-brix.com
-campaign.ad-brix.com
-as.ad-brix.com
-impact.applifier.com
-wd.adcolony.com
-ads30.adcolony.com
-c4d-cdn.adcolony.com
-events3alt.adcolony.com
-adc3-launch.adcolony.com
-init.startappservice.com
-www.adtilt.com
-infoevent.startappservice.com
-events3.adcolony.com
-req.startappservice.com
-app-measurement.com
-adimpression.startappservice.com
-click.startappservice.com
-images.startappservice.com
-dts.startappservice.com
-events.appsflyer.com
-cf.iadsdk.apple.com
-log.adtimaserver.vn
-adtima-media.zadn.vn
-api.adtimaserver.vn
-t.appsflyer.com
-ng-vn-notice.gameitop.com
-e.crashlytics.com
-stats.appsflyer.com
-ailamtrieuphu.com
-track.clickhubs.com
-trk.superads.cn
-cdnappicons.appsflyer.com
-cdn.appsflyer.com
-logger.adthor.com
-pokkt.fuse-ad.com
-logger.zcoup.com
-api.adthor.com
-ocsp.apple.com
-tok.leadloss.com
-ads.aerserv.com
-ads.mopub.com
-cdn.appnext.com
-data.flurry.com
-net.rayjump.com
-analytics.rayjump.com
-ads.api.vungle.com
-z.moatads.com
-setting.rayjump.com
-proton.flurry.com
-api.zcoup.com
-ads.flurry.com
-gum.criteo.com
-www.vungle.com
-ios.bugly.qq.com
-ulogs.umeng.com
-sec.umeng.com
-register.appsflyer.com
-api.leanplum.com
-static.eclick.vn
-log.eclick.vn
-g.eclick.vn
-s.eclick.vn
-apinas.nct.vn
-app.adjust.com
-www.googleadservices.com
-log4x.nixcdn.com
-stc-nas.nixcdn.com
-mvas.mobifone.vn
-dangky.mobifone.vn
-mpay.nct.vn
-sb.scorecardresearch.com
-vta.nixcdn.com
-bs.serving-sys.com
-lrc.nct.nixcdn.com
-adtrack1.midasplayer.com
-p.midasplayer.com
-servicelayer.king.com
-cdn-akamai.unityads.unity3d.com
-auction.unityads.unity3d.com
-publisher-config.unityads.unity3d.com
-tracking.prd.mz.internal.unity3d.com
-config.unityads.unity3d.com
-webview.unityads.unity3d.com
-jianchiapp.com
-pagead46.l.doubleclick.net
-www.googletagservices.com
-contenido1.midasplayer.com
-ws.tapjoyads.com
-rpc.tapjoy.com
-placements.tapjoy.com
-content.tapjoy.com
-connect.tapjoy.com
-adservice.google.com
-api.appodeal.com
-d.applovin.com
-rt.applovin.com
-a.applovin.com
-rt.applvn.com
-d.applvn.com
-a.applvn.com
-imp.startappservice.com
-api.app1vn.com
-org.zaloapp.ads.zdn.vn
-zalo-ads-td.zadn.vn
-ad.360in.com
-reports.crashlytics.com
-attr.appsflyer.com
-gstaticadssl.l.google.com
-static.doubleclick.net
-4hag.adj.st
-ads.google.com
+pagead2.googlesyndication.com 127.0.0.1
+tpc.googlesyndication.com 127.0.0.1
+wwb.google-analytics.com 127.0.0.1
+googleads.g.doubleclick.net 127.0.0.1
+settings.crashlytics.com 127.0.0.1
+ssl.google-analytics.com 127.0.0.1
+live.chartboost.com 127.0.0.1
+tracking.ad-brix.com 127.0.0.1
+config.ad-brix.com 127.0.0.1
+campaign.ad-brix.com 127.0.0.1
+as.ad-brix.com 127.0.0.1
+impact.applifier.com 127.0.0.1
+wd.adcolony.com 127.0.0.1
+ads30.adcolony.com 127.0.0.1
+c4d-cdn.adcolony.com 127.0.0.1
+events3alt.adcolony.com 127.0.0.1
+adc3-launch.adcolony.com 127.0.0.1
+init.startappservice.com 127.0.0.1
+www.adtilt.com 127.0.0.1
+infoevent.startappservice.com 127.0.0.1
+events3.adcolony.com 127.0.0.1
+req.startappservice.com 127.0.0.1
+app-measurement.com 127.0.0.1
+adimpression.startappservice.com 127.0.0.1
+click.startappservice.com 127.0.0.1
+images.startappservice.com 127.0.0.1
+dts.startappservice.com 127.0.0.1
+events.appsflyer.com 127.0.0.1
+cf.iadsdk.apple.com 127.0.0.1
+log.adtimaserver.vn 127.0.0.1
+adtima-media.zadn.vn 127.0.0.1
+api.adtimaserver.vn 127.0.0.1
+t.appsflyer.com 127.0.0.1
+ng-vn-notice.gameitop.com 127.0.0.1
+e.crashlytics.com 127.0.0.1
+stats.appsflyer.com 127.0.0.1
+ailamtrieuphu.com 127.0.0.1
+track.clickhubs.com 127.0.0.1
+trk.superads.cn 127.0.0.1
+cdnappicons.appsflyer.com 127.0.0.1
+cdn.appsflyer.com 127.0.0.1
+logger.adthor.com 127.0.0.1
+pokkt.fuse-ad.com 127.0.0.1
+logger.zcoup.com 127.0.0.1
+api.adthor.com 127.0.0.1
+ocsp.apple.com 127.0.0.1
+tok.leadloss.com 127.0.0.1
+ads.aerserv.com 127.0.0.1
+ads.mopub.com 127.0.0.1
+cdn.appnext.com 127.0.0.1
+data.flurry.com 127.0.0.1
+net.rayjump.com 127.0.0.1
+analytics.rayjump.com 127.0.0.1
+ads.api.vungle.com 127.0.0.1
+z.moatads.com 127.0.0.1
+setting.rayjump.com 127.0.0.1
+proton.flurry.com 127.0.0.1
+api.zcoup.com 127.0.0.1
+ads.flurry.com 127.0.0.1
+gum.criteo.com 127.0.0.1
+www.vungle.com 127.0.0.1
+ios.bugly.qq.com 127.0.0.1
+ulogs.umeng.com 127.0.0.1
+sec.umeng.com 127.0.0.1
+register.appsflyer.com 127.0.0.1
+api.leanplum.com 127.0.0.1
+static.eclick.vn 127.0.0.1
+log.eclick.vn 127.0.0.1
+g.eclick.vn 127.0.0.1
+s.eclick.vn 127.0.0.1
+apinas.nct.vn 127.0.0.1
+app.adjust.com 127.0.0.1
+www.googleadservices.com 127.0.0.1
+log4x.nixcdn.com 127.0.0.1
+stc-nas.nixcdn.com 127.0.0.1
+mvas.mobifone.vn 127.0.0.1
+dangky.mobifone.vn 127.0.0.1
+mpay.nct.vn 127.0.0.1
+sb.scorecardresearch.com 127.0.0.1
+vta.nixcdn.com 127.0.0.1
+bs.serving-sys.com 127.0.0.1
+lrc.nct.nixcdn.com 127.0.0.1
+adtrack1.midasplayer.com 127.0.0.1
+p.midasplayer.com 127.0.0.1
+servicelayer.king.com 127.0.0.1
+cdn-akamai.unityads.unity3d.com 127.0.0.1
+auction.unityads.unity3d.com 127.0.0.1
+publisher-config.unityads.unity3d.com 127.0.0.1
+tracking.prd.mz.internal.unity3d.com 127.0.0.1
+config.unityads.unity3d.com 127.0.0.1
+webview.unityads.unity3d.com 127.0.0.1
+jianchiapp.com 127.0.0.1
+pagead46.l.doubleclick.net 127.0.0.1
+www.googletagservices.com 127.0.0.1
+contenido1.midasplayer.com 127.0.0.1
+ws.tapjoyads.com 127.0.0.1
+rpc.tapjoy.com 127.0.0.1
+placements.tapjoy.com 127.0.0.1
+content.tapjoy.com 127.0.0.1
+connect.tapjoy.com 127.0.0.1
+adservice.google.com 127.0.0.1
+api.appodeal.com 127.0.0.1
+d.applovin.com 127.0.0.1
+rt.applovin.com 127.0.0.1
+a.applovin.com 127.0.0.1
+rt.applvn.com 127.0.0.1
+d.applvn.com 127.0.0.1
+a.applvn.com 127.0.0.1
+imp.startappservice.com 127.0.0.1
+api.app1vn.com 127.0.0.1
+org.zaloapp.ads.zdn.vn 127.0.0.1
+zalo-ads-td.zadn.vn 127.0.0.1
+ad.360in.com 127.0.0.1
+reports.crashlytics.com 127.0.0.1
+attr.appsflyer.com 127.0.0.1
+gstaticadssl.l.google.com 127.0.0.1
+static.doubleclick.net 127.0.0.1
+4hag.adj.st 127.0.0.1
+ads.google.com 127.0.0.1
