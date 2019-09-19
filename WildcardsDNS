@@ -2,7 +2,6 @@
 loglevel = notify
 allow-wifi-access = false
 ipv6 = true
-network-framework = false
 dns-server = https://dns.google/dns-query, https://cloudflare-dns.com/dns-query, system
 
 [Replica]
@@ -15,6 +14,11 @@ URL-REGEX,http://graph.nhaccuatui.com/.+/3g-get-info,REJECT
 FINAL,DIRECT
 
 [Host]
+*mavq.net = 0.0.0.0
+*a-ads* = 0.0.0.0
+www.statcounter.com = 0.0.0.0
+*sharethis.com = 0.0.0.0
+*popads* = 0.0.0.0
 *crashlytics* = 0.0.0.0
 *adtimaserver* = 0.0.0.0
 *ad-brix* = 0.0.0.0
