@@ -1,0 +1,27 @@
+[general]
+
+
+[dns]
+
+[policy]
+
+[server_remote]
+
+[filter_remote]
+
+[rewrite_remote]
+
+[server_local]
+
+
+
+[filter_local]
+host-keyword, adtima-media.zadn.vn, reject
+host-keyword, appsflyer.com, reject
+host-keyword, adtimaserver.vn, reject
+host-keyword, google-analytics.com, reject
+host-keyword, crashlytics.com, reject
+host-keyword, app-measurement.com, reject
+
+
+final, direct
