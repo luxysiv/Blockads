@@ -125,6 +125,60 @@ DOMAIN-KEYWORD,doubleclick.net,REJECT
 DOMAIN-KEYWORD,4hag.adj.st,REJECT
 FINAL,DIRECT
 
+[Host]
+tvnotice.kg.garena.vn = 0.0.0.0
+*beacon.qq.com = 0.0.0.0
+*mavq.net = 0.0.0.0
+*a-ads* = 0.0.0.0
+www.statcounter.com = 0.0.0.0
+*sharethis.com = 0.0.0.0
+*popads* = 0.0.0.0
+*crashlytics* = 0.0.0.0
+*adtimaserver* = 0.0.0.0
+*ad-brix* = 0.0.0.0
+*chartboost* = 0.0.0.0
+*unityads* = 0.0.0.0
+*tapjoy* = 0.0.0.0
+app.adjust.com = 0.0.0.0
+ocsp.apple.com = 0.0.0.0
+ng-vn-notice.gameitop.com = 0.0.0.0
+adservice* = 0.0.0.0
+*doubleclick* = 0.0.0.0
+*googletagmanager* = 0.0.0.0
+zalo-ads-td* = 0.0.0.0
+org.zaloapp.ads.zdn.vn = 0.0.0.0
+*appsflyer* = 0.0.0.0
+*leanplum* = 0.0.0.0
+app-measurement.com = 0.0.0.0
+*adcolony* = 0.0.0.0
+*moatads* = 0.0.0.0
+*mopub* = 0.0.0.0
+*smaato* = 0.0.0.0
+*appbaqend* = 0.0.0.0
+*adthor* = 0.0.0.0
+*superads* = 0.0.0.0
+*mobtrack* = 0.0.0.0
+pagead2* = 0.0.0.0
+*googleadservices* = 0.0.0.0
+*google-analytics* = 0.0.0.0
+*flurry* = 0.0.0.0
+*vungle* = 0.0.0.0
+*applovin* = 0.0.0.0
+*startappservice* = 0.0.0.0
+servicelayer.king.com = 0.0.0.0
+*.midasplayer.com = 0.0.0.0
+*eclick* = 0.0.0.0
+*applvn* = 0.0.0.0
+*rayjump* = 0.0.0.0
+*criteo* = 0.0.0.0
+*ads.google* = 0.0.0.0
+*admicro* = 0.0.0.0
+*googletagservices* = 0.0.0.0
+*polyad* = 0.0.0.0
+*supersonicads.com = 0.0.0.0
+*appsflyer* = 0.0.0.0
+*zalo-ads* = 0.0.0.0
+
 [URL Rewrite]
 https://graph.nhaccuatui.com/.+/adv - reject
 https://graph.nhaccuatui.com/.+/commons/version? - reject
