@@ -1,9 +1,0 @@
-m.bongdaplus.vn##div.divbot:nth-child(4) > center:nth-child(13) > iframe
-tenovi.net###m-adsence-popup
-m.pandahelp.vip###media
-chiasesuutam.com##div.xbZqIQUXAwaU-bg:nth-child(9)
-ftios.vn###app > div.view.view-main.safe-areas:last-child > div.page > div.page-content.m-navbar.blog-bg:nth-child(2) > div.ftd4-page:first-child > div.row > div.col-100.tablet-65:first-child > div.ftd4-new-scroll > div.ftd4-testbox:nth-child(2)
-kenhtao.net##div.wrap-fullwidth:nth-child(6) > div.mobile-ad:nth-child(2) > div.mobile-top
-kenhtao.net##div.wrap-container:nth-child(6) > div.mobile-ad:nth-child(7) > div.mobile-top
-kenhtao.net###infinite-articles > div.baiviet:nth-child(7) > center > ins.adsbygoogle:nth-child(2)
-kenhtao.net###infinite-articles > div.baiviet:nth-child(16) > center > ins.adsbygoogle:nth-child(2)
