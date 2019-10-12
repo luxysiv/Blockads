@@ -11,6 +11,9 @@ hide-udp=false
 [Rule]
 URL-REGEX,http://.+.adverting,REJECT
 URL-REGEX,http://graph.nhaccuatui.com.+users.+3g-get-info,REJECT
+DOMAIN-KEYWORD,sicads3.com,REJECT
+DOMAIN-KEYWORD,zone.uniad.vn,REJECT
+DOMAIN-KEYWORD,uniad.phimmoi.net,REJECT
 DOMAIN-KEYWORD,zalo-ads.zadn.vn,REJECT
 DOMAIN-KEYWORD,tvnotice.kg.garena.vn,REJECT
 DOMAIN-KEYWORD,beacon.qq.com,REJECT
