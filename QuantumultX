@@ -1,0 +1,42 @@
+[general]
+
+
+[dns]
+
+
+[policy]
+
+
+[server_remote]
+
+
+[filter_remote]
+
+
+[rewrite_remote]
+
+
+[server_local]
+
+
+[filter_local]
+host, zalo-ads.zadn.vn, reject
+host, ocsp.apple.com, reject
+host, www.googleadservices.com, reject
+host, appsflyer.com, reject
+host, adtimaserver.vn, reject
+host, adtima-media.zadn.vn, reject
+host, google-analytics.com, reject
+host, crashlytics.com, reject
+host, app-measurement.com, reject
+final,direct
+
+[rewrite_local]
+
+
+[mitm]
+;passphrase =
+;p12 =
+;skip_validating_cert = false
+;force_sni_domain_name = false
+;hostname = 
