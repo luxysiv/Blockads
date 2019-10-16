@@ -20,6 +20,9 @@
 
 
 [filter_local]
+host-keyword, log4x.nixcdn.com, reject
+host-keyword, apinas.nct.vn, reject
+host-keyword, log4x.nixcdn.com, reject
 host-keyword, doubleclick.net, reject
 host-keyword, umeng.com, reject
 host-keyword, applifier.com, reject
@@ -43,6 +46,7 @@ final,direct
 
 [rewrite_local]
 
+http://graph.nhaccuatui.com.+users.+3g-get-info url reject
 
 [mitm]
 ;passphrase =
