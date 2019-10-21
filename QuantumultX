@@ -21,6 +21,8 @@
 
 
 [filter_local]
+host-keyword, lsosad.com, reject
+host-keyword, amazon-adsystem.com, reject
 host-keyword, moatads.com, reject
 host-keyword, vungle.com, reject
 host-keyword, supersonicads-a.akamaihd.net, reject
