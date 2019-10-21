@@ -20,6 +20,13 @@
 
 
 [filter_local]
+host-keyword, startappservice.com, reject
+host-keyword, adcolony.com, reject
+host-keyword, cloud.unity3d.com, reject
+host-keyword, tapjoy.com, reject
+host-keyword, cloudmobi.net, reject
+host-keyword, applog.camera360.com, reject
+host-keyword, app.adjust.com, reject
 host-keyword, log4x.nixcdn.com, reject
 host-keyword, apinas.nct.vn, reject
 host-keyword, log4x.nixcdn.com, reject
