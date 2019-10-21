@@ -21,6 +21,9 @@
 
 
 [filter_local]
+host-keyword, ailamtrieuphu.com, reject
+host-keyword, adsplay.net, reject
+host-keyword, mopub.com, reject
 host-keyword, lsosad.com, reject
 host-keyword, amazon-adsystem.com, reject
 host-keyword, moatads.com, reject
