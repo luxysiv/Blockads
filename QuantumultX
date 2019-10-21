@@ -19,7 +19,21 @@
 [server_local]
 
 
+
 [filter_local]
+host-keyword, moatads.com, reject
+host-keyword, vungle.com, reject
+host-keyword, supersonicads-a.akamaihd.net, reject
+host-keyword, supersonicads.com, reject
+host-keyword, unityads.unity3d.com, reject
+host-keyword, chartboost.com, reject
+host-keyword, criteo.com, reject
+host-keyword, appbaqend.com, reject
+host-keyword, applovin.com, reject
+host-keyword, applvn.com, reject
+host-keyword, umengcloud.com, reject
+host-keyword, googleads.g.dpvblfcljck.nft, reject
+host-keyword, servicelayer.king.com, reject
 host-keyword, startappservice.com, reject
 host-keyword, adcolony.com, reject
 host-keyword, cloud.unity3d.com, reject
