@@ -21,6 +21,7 @@
 
 
 [filter_local]
+host-keyword, adservice.google.com, reject
 host-keyword, ailamtrieuphu.com, reject
 host-keyword, adsplay.net, reject
 host-keyword, mopub.com, reject
