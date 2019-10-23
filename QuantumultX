@@ -21,6 +21,12 @@
 
 
 [filter_local]
+host-keyword, uniad, reject
+host-keyword, admicro.vn, reject
+host-keyword, adnxs.com, reject
+host-keyword, polyad.net, reject
+host-keyword, scorecardresearch.com, reject
+host-keyword, eclick.vn, reject
 host-keyword, adservice.google.com, reject
 host-keyword, ailamtrieuphu.com, reject
 host-keyword, adsplay.net, reject
