@@ -21,6 +21,7 @@
 
 
 [filter_local]
+host-keyword, tapjoyads.com, reject
 host-keyword, uniad, reject
 host-keyword, admicro.vn, reject
 host-keyword, adnxs.com, reject
