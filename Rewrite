@@ -9,10 +9,3 @@ https://www.youtube.com/api/stats/ads url reject-img
 https://.+.googlevideo.com/.+ctier url reject-img
 https://.+.googlevideo.com/.+&oad url reject-img
 https://s.youtube.com/api/.+adformat url reject-img
-https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Terminus.js
-https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body mondly.vip.js
-https:\/\/api\.busuu\.com\/users\/me* url script-response-body busuu.vip.js
-https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body camera360.vip.js
-http:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body zingtvvipv1.js
-https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get url script-response-body musixmatch.miao.js
-https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body boom.vip.js
