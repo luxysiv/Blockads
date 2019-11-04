@@ -1,1 +1,10 @@
-
+https://graph.nhaccuatui.com/.+/adv url reject
+https://graph.nhaccuatui.com/.+/commons/version? url reject
+https://youtubei.googleapis.com/youtubei/.+/log_event url reject
+https://www.youtube.com/pagead url reject
+https://s.youtube.com/api/stats/qoe?event url reject
+https://www.youtube.com/ptracking url reject
+https://www.youtube.com/api/stats/ads url reject
+https://.+.googlevideo.com/.+ctier url reject
+https://.+.googlevideo.com/.+&oad url reject
+https://s.youtube.com/api/.+adformat url reject
