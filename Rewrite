@@ -31,3 +31,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body T
 
 #Musixmatch
 ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get url script-response-body musixmatch.miao.js
+
+#boom
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body boom.vip.js
