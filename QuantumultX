@@ -73,7 +73,7 @@ http:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body zingtvvipv1.js
 #Musixmatch
 https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get url script-response-body musixmatch.miao.js
 #Boom
-https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body boom.vip.js
+https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url 302 https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp
 
 
 [mitm]
