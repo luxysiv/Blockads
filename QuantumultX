@@ -59,21 +59,21 @@ final, direct
 [rewrite_local]
 
 #Nhaccuatui
-^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info* url script-response-body nhaccuatui.js
+https://graph.nhaccuatui.com.+users.+info url script-response-body nhaccuatui.js
 #Terminus
-https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Terminus.js
+https://api.termius.com.+api.+bulk.+account url script-response-body Terminus.js
 #Mondly
-https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body mondly.vip.js
+https://api.mondlylanguages.com.+ios.+user.+sync$ url script-response-body mondly.vip.js
 #Busuu
-https:\/\/api\.busuu\.com\/users\/me* url script-response-body busuu.vip.js
+https://api.busuu.com.+users.+me url script-response-body busuu.vip.js
 #Camera360
-https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body camera360.vip.js
+https://bmall.camera360.com.+api.+iap.+check-receipt$ url script-response-body camera360.vip.js
 #ZingTV
-http:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body zingtvvipv1.js
+http://api.tv.zing.vn.+user url script-response-body zingtvvipv1.js
 #Musixmatch
-https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get url script-response-body musixmatch.miao.js
+https://apic.musixmatch.com.+ws.+(user|config)\.get url script-response-body musixmatch.miao.js
 #Boom
-https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url 302 https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp
+https://apimboom2.globaldelight.net.+itunesreceipt_v2.+php$ url 302 https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp
 
 
 [mitm]
