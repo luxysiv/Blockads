@@ -75,7 +75,7 @@ https://apic.musixmatch.com.+ws.+(user|config)\.get url script-response-body mus
 #Boom
 https://apimboom2.globaldelight.net.+itunesreceipt_v2.+php$ url 302 https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp
 #zingmp3
-https:api.global.mp3.zing.vn.+getUserInfo.+data= url script-response-body zingmp3.vip.js
+https://api.global.mp3.zing.vn.+getUserInfo.+data= url script-response-body zingmp3.vip.js
 
 [mitm]
 passphrase = F3940B10
