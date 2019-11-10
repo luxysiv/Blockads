@@ -74,7 +74,8 @@ http://api.tv.zing.vn.+user url script-response-body zingtvvipv1.js
 https://apic.musixmatch.com.+ws.+(user|config)\.get url script-response-body musixmatch.miao.js
 #Boom
 https://apimboom2.globaldelight.net.+itunesreceipt_v2.+php$ url 302 https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp
-
+#zingmp3
+https:api.global.mp3.zing.vn.+getUserInfo.+data= url script-response-body
 
 [mitm]
 passphrase = F3940B10
