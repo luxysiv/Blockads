@@ -5,6 +5,6 @@ https://www.youtube.com/pagead url reject-img
 https://s.youtube.com/api/stats/qoe?event url reject-img
 https://www.youtube.com/ptracking url reject-img
 https://www.youtube.com/api/stats/ads url reject-img
-https://.+.googlevideo.com/.+&oad url reject-img
-https://.+.googlevideo.com/.+ctier url reject-img
+https://.+.googlevideo.com/.+&oad url reject
+https://.+.googlevideo.com/.+ctier url reject
 https://s.youtube.com/api/.+adformat url reject-img
