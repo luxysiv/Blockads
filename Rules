@@ -1,3 +1,4 @@
+host-keyword, connect.facebook.net, reject
 host-keyword, www.googletagservices.com, reject
 host-keyword, tapjoyads.com, reject
 host-keyword, uniad, reject
