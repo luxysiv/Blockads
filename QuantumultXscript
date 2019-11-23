@@ -1,0 +1,57 @@
+[general]
+udp_whitelist=53
+
+[dns]
+;server=/system
+
+[policy]
+;static=policy-name-1, Sample-A, Sample-B, Sample-C, img-url=http://example.com/icon.png
+;available=policy-name-2, Sample-A, Sample-B, Sample-C
+;round-robin=policy-name-3, Sample-A, Sample-B, Sample-C
+;ssid=policy-name-4, Sample-A, Sample-B, LINK_22E171:Sample-B, LINK_22E172:Sample-C
+
+[server_remote]
+;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server.txt, tag=Sample-01
+;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.txt, tag=Sample-02, enabled=false
+
+[filter_remote]
+https://raw.githubusercontent.com/luxysiv/Blockads/master/Rules, tag=blockads, enabled=true
+
+[rewrite_remote]
+https://raw.githubusercontent.com/luxysiv/Blockads/master/Rewrite, tag=rewrite, enabled=true
+
+[server_local]
+shadowsocks=127.0.0.1:443, method=none, password=manhduong, fast-open=false, udp-relay=false, tag=Local
+
+[filter_local]
+;user-agent, ?abc*, proxy
+;host, www.google.com, proxy
+;host-keyword, adsite, reject
+;host-suffix, googleapis.com, proxy
+final, direct
+
+[rewrite_local]
+
+#Nhaccuatui
+https://graph.nhaccuatui.com.+users.+info url script-response-body nhaccuatui.js
+#Terminus
+https://api.termius.com.+api.+bulk.+account url script-response-body Terminus.js
+#Mondly
+https://api.mondlylanguages.com.+ios.+user.+sync$ url script-response-body mondly.vip.js
+#Busuu
+https://api.busuu.com.+users.+me url script-response-body busuu.vip.js
+#Camera360
+https://bmall.camera360.com.+api.+iap.+check-receipt$ url script-response-body camera360.vip.js
+#ZingTV
+http://api.tv.zing.vn.+user url script-response-body zingtvvipv1.js
+#Musixmatch
+https://apic.musixmatch.com.+ws.+(user|config)\.get url script-response-body musixmatch.miao.js
+#Boom
+https://apimboom2.globaldelight.net.+itunesreceipt_v2.+php$ url 302 https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp
+#zingmp3
+https://api.global.mp3.zing.vn.+getUserInfo.+data= url script-response-body zingmp3.vip.js
+
+[mitm]
+passphrase = F3940B10
+p12 = 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
+hostname = graph.nhaccuatui.com, www.youtube.com, youtubei.googleapis.com, *.googlevideo.com, s.youtube.com, api.termius.com, api.mondlylanguages.com, api.busuu.com, bmall.camera360.com, api.tv.zing.vn, apic.musixmatch.com, apimboom2.globaldelight.net
