@@ -1,7 +1,7 @@
 host-keyword, www.googletagmanager.com, reject
 host-keyword, connect.facebook.net, reject
 host-keyword, www.googletagservices.com, reject
-host-keyword, tapjoyads.com, reject
+host-keyword, tapjoyads, reject
 host-keyword, uniad, reject
 host-keyword, admicro.vn, reject
 host-keyword, adnxs.com, reject
@@ -13,14 +13,13 @@ host-keyword, ailamtrieuphu.com, reject
 host-keyword, adsplay.net, reject
 host-keyword, mopub.com, reject
 host-keyword, lsosad.com, reject
-host-keyword, amazon-adsystem.com, reject
+host-keyword, adsystem, reject
 host-keyword, moatads.com, reject
 host-keyword, vungle.com, reject
-host-keyword, supersonicads-a.akamaihd.net, reject
-host-keyword, supersonicads.com, reject
-host-keyword, unityads.unity3d.com, reject
+host-keyword, supersonicads, reject
+host-keyword, unityads, reject
 host-keyword, chartboost.com, reject
-host-keyword, criteo.com, reject
+host-keyword, criteo, reject
 host-keyword, appbaqend.com, reject
 host-keyword, applovin.com, reject
 host-keyword, applvn.com, reject
@@ -47,7 +46,7 @@ host-keyword, appsflyer.com, reject
 host-keyword, beacon.qq.com, reject
 host-keyword, ng-vn-notice.gameitop.com, reject
 host-keyword, tvnotice.kg.garena.vn, reject
-host-keyword, zalo-ads.zadn.vn, reject
+host-keyword, zalo-ads, reject
 host-keyword, ocsp.apple.com, reject
 host-keyword, www.googleadservices.com, reject
 host-keyword, appsflyer.com, reject
