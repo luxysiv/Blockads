@@ -7,6 +7,6 @@ URL-REGEX,https://www.youtube.com/ptracking
 URL-REGEX,https://www.youtube.com/pagead
 URL-REGEX,https://youtubei.googleapis.com/youtubei/.+/log_event
 URL-REGEX,http://graph.nhaccuatui.com/.+/3g-get-info
-URL-REGEX,https://graph.nhaccuatui.com/.+/commons
+URL-REGEX,https://graph.nhaccuatui.com/.+/commons/version?
 URL-REGEX,https://graph.nhaccuatui.com/.+/adv
 URL-REGEX,http://.+.adverting
