@@ -1,4 +1,3 @@
-//App
 DOMAIN-KEYWORD,adtilt
 DOMAIN-KEYWORD,adcolony
 DOMAIN-KEYWORD,appnext
@@ -28,8 +27,6 @@ DOMAIN-SUFFIX,catch.gift
 DOMAIN-SUFFIX,pubnative.net
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,igexin.com
-
-//Google&&Youtube
 DOMAIN-KEYWORD,crashlytics
 DOMAIN,mtalk.google.com
 DOMAIN,suggestqueries.google.com
@@ -37,8 +34,6 @@ DOMAIN,www.googleadservices.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-KEYWORD,adservice
 DOMAIN,www.google-analytics.com
-
-//QQ
 USER-AGENT,TencentConnect*
 DOMAIN-SUFFIX,3g.qq.com
 DOMAIN,pingma.qq.com
@@ -48,21 +43,13 @@ DOMAIN,ios.bugly.qq.com
 DOMAIN,wup.imtt.qq.com
 DOMAIN,sdk.e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
-
-//Apple
 USER-AGENT,com.apple.trustd/2.0
 USER-AGENT,com.apple.AppStore.ProductPageExtension*
 DOMAIN,iadsdk.apple.com
-
-//Ali
 DOMAIN-KEYWORD,adashx
-
-//Zing
 DONAIN-KEYWORD,log.sdk.zadn.vn
 DOMAIN-KEYWORD,adtima
 DOMAIN-KEYWORD,zalo-ads
-
-//Game
 DOMAIN-KEYWORD,chartboost
 DOMAIN-KEYWORD,tapjoy
 DOMAIN-KEYWORD,appbaqend
