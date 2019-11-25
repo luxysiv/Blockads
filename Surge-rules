@@ -46,6 +46,7 @@ DOMAIN,sdk.e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 
 //Apple
+USER-AGENT,com.apple.trustd/2.0
 USER-AGENT,com.apple.AppStore.ProductPageExtension*
 DOMAIN,iadsdk.apple.com
 
