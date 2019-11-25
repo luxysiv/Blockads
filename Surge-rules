@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,igexin.com
 
 //Google&&Youtube
+DOMAIN-KEYWORD,crashlytics
 DOMAIN,mtalk.google.com
 DOMAIN,suggestqueries.google.com
 DOMAIN,www.googleadservices.com
