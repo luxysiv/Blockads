@@ -75,7 +75,7 @@ DOMAIN-KEYWORD,ng-vn-notice.gameitop.com
 DOMAIN-KEYWORD,startappservice
 
 
-//URL-Regex
+//Regex
 URL-REGEX,https://.+.googlevideo.com/.+ctier
 URL-REGEX,https://.+.googlevideo.com/.+&oad
 URL-REGEX,https://s.youtube.com/api/.+adformat
