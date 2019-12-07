@@ -1,2 +1,2 @@
 # Block ads
-And quantumult,surge and shadowrocket
+Block ads on mobile
