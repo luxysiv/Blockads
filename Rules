@@ -54,5 +54,4 @@ host-keyword, adtimaserver.vn, reject
 host-keyword, adtima-media.zadn.vn, reject
 host-keyword, google-analytics.com, reject
 host-keyword, crashlytics.com, reject
-host-keyword, app-measurement.com, reject
 host-keyword, googlesyndication.com,reject
