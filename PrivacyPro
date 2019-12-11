@@ -67,10 +67,6 @@
     "redirect" : "127.0.0.1",
     "ttl" : 60
   },
-  "app-measurement.com" : {
-    "redirect" : "127.0.0.1",
-    "ttl" : 60
-  },
   "beacon.qq.com" : {
     "redirect" : "127.0.0.1",
     "ttl" : 60
