@@ -69,7 +69,6 @@ DOMAIN-KEYWORD,impact.applifier.com,REJECT
 DOMAIN-KEYWORD,adcolony.com,REJECT
 DOMAIN-KEYWORD,startappservice.com,REJECT
 DOMAIN-KEYWORD,www.adtilt.com,REJECT
-DOMAIN-KEYWORD,app-measurement.com,REJECT
 DOMAIN-KEYWORD,appsflyer.com,REJECT
 DOMAIN-KEYWORD,cf.iadsdk.apple.com,REJECT
 DOMAIN-KEYWORD,adtimaserver.vn,REJECT
@@ -153,7 +152,6 @@ zalo-ads-td* = 0.0.0.0
 org.zaloapp.ads.zdn.vn = 0.0.0.0
 *appsflyer* = 0.0.0.0
 *leanplum* = 0.0.0.0
-app-measurement.com = 0.0.0.0
 *adcolony* = 0.0.0.0
 *moatads* = 0.0.0.0
 *mopub* = 0.0.0.0
