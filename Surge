@@ -9,6 +9,16 @@ hide-crashlytics-request=false
 hide-udp=false
 
 [Rule]
+URL-REGEX,https://s.youtube.com/api/.+adformat,REJECT-TINYGIF
+URL-REGEX,https://.+.googlevideo.com/.+&oad,REJECT-TINYGIF
+URL-REGEX,https://.+.googlevideo.com/.+ctier,REJECT-TINYGIF
+URL-REGEX,https://www.youtube.com/api/stats/ads,REJECT-TINYGIF
+URL-REGEX,https://www.youtube.com/ptracking,REJECT-TINYGIF
+URL-REGEX,https://s.youtube.com/api/stats/qoe?event,REJECT-TINYGIF
+URL-REGEX,https://www.youtube.com/pagead,REJECT-TINYGIF
+URL-REGEX,https://youtubei.googleapis.com/youtubei/.+/log_event,REJECT-TINYGIF
+URL-REGEX,https://graph.nhaccuatui.com/.+/commons/version?,REJECT-TINYGIF
+URL-REGEX,https://graph.nhaccuatui.com/.+/adv,REJECT-TINYGIF
 URL-REGEX,http://.+.adverting,REJECT
 URL-REGEX,http://graph.nhaccuatui.com.+users.+3g-get-info,REJECT
 DOMAIN-KEYWORD,sicads3.com,REJECT
@@ -128,76 +138,11 @@ DOMAIN-KEYWORD,doubleclick.net,REJECT
 DOMAIN-KEYWORD,4hag.adj.st,REJECT
 FINAL,DIRECT
 
-[Host]
-tvnotice.kg.garena.vn = 0.0.0.0
-*beacon.qq.com = 0.0.0.0
-*mavq.net = 0.0.0.0
-*a-ads* = 0.0.0.0
-www.statcounter.com = 0.0.0.0
-*sharethis.com = 0.0.0.0
-*popads* = 0.0.0.0
-*crashlytics* = 0.0.0.0
-*adtimaserver* = 0.0.0.0
-*ad-brix* = 0.0.0.0
-*chartboost* = 0.0.0.0
-*unityads* = 0.0.0.0
-*tapjoy* = 0.0.0.0
-app.adjust.com = 0.0.0.0
-ocsp.apple.com = 0.0.0.0
-ng-vn-notice.gameitop.com = 0.0.0.0
-adservice* = 0.0.0.0
-*doubleclick* = 0.0.0.0
-*googletagmanager* = 0.0.0.0
-zalo-ads-td* = 0.0.0.0
-org.zaloapp.ads.zdn.vn = 0.0.0.0
-*appsflyer* = 0.0.0.0
-*leanplum* = 0.0.0.0
-*adcolony* = 0.0.0.0
-*moatads* = 0.0.0.0
-*mopub* = 0.0.0.0
-*smaato* = 0.0.0.0
-*appbaqend* = 0.0.0.0
-*adthor* = 0.0.0.0
-*superads* = 0.0.0.0
-*mobtrack* = 0.0.0.0
-pagead2* = 0.0.0.0
-*googleadservices* = 0.0.0.0
-*google-analytics* = 0.0.0.0
-*flurry* = 0.0.0.0
-*vungle* = 0.0.0.0
-*applovin* = 0.0.0.0
-*startappservice* = 0.0.0.0
-servicelayer.king.com = 0.0.0.0
-*.midasplayer.com = 0.0.0.0
-*eclick* = 0.0.0.0
-*applvn* = 0.0.0.0
-*rayjump* = 0.0.0.0
-*criteo* = 0.0.0.0
-*ads.google* = 0.0.0.0
-*admicro* = 0.0.0.0
-*googletagservices* = 0.0.0.0
-*polyad* = 0.0.0.0
-*supersonicads.com = 0.0.0.0
-*appsflyer* = 0.0.0.0
-*zalo-ads* = 0.0.0.0
-
 [URL Rewrite]
 https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp 302
-https://graph.nhaccuatui.com/.+/adv - reject
-https://graph.nhaccuatui.com/.+/commons/version? - reject
-https://youtubei.googleapis.com/youtubei/.+/log_event - reject
-https://www.youtube.com/pagead - reject
-https://s.youtube.com/api/stats/qoe?event - reject
-https://www.youtube.com/ptracking - reject
-https://www.youtube.com/api/stats/ads - reject
-https://.+.googlevideo.com/.+ctier - reject
-https://.+.googlevideo.com/.+&oad - reject
-https://s.youtube.com/api/.+adformat - reject
 
 [MITM]
-hostname = avatar-nct.nixcdn.com, spclient.wg.spotify.com, *.googlevideo.com, oa.zalo.me, vsco.co, api.gyrosco.pe, origin-prod-phoenix.jibjab.com, api.termius.com, api.picsart.com, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com, buy.itunes.apple.com, api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:8095, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com, www.calm.com, api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com
-ca-passphrase = 2498DCA3
-ca-p12 = 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
+hostname = *youtube.com, *googlevideo.com, vsco.co, graph.nhaccuatui.com, api.mondlylanguages.com, api.busuu.com, bmall.camera360.com, apimboom2.globaldelight.net
 
 [Script]
 http-response ^https:\/\/api\.busuu\.com\/users\/me* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/busuu.vip.js,script-update-interval=-1
