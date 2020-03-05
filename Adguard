@@ -1,6 +1,6 @@
 ||pagead2.googlesyndication.com^
 ||tpc.googlesyndication.com^
-||www.google-analytics.com^
+||google-analytics.com^
 ||googleads.g.doubleclick.net^
 ||settings.crashlytics.com^
 ||ssl.google-analytics.com^
@@ -16,7 +16,7 @@
 ||events3alt.adcolony.com^
 ||adc3-launch.adcolony.com^
 ||init.startappservice.com^
-||www.adtilt.com^
+||adtilt.com^
 ||infoevent.startappservice.com^
 ||events3.adcolony.com^
 ||req.startappservice.com^
@@ -69,7 +69,7 @@
 ||s.eclick.vn^
 ||apinas.nct.vn^
 ||app.adjust.com^
-||www.googleadservices.com^
+||googleadservices.com^
 ||log4x.nixcdn.com^
 ||stc-nas.nixcdn.com^
 ||mvas.mobifone.vn^
@@ -128,7 +128,7 @@
 ||c.adsco.re^
 ||c1.popads.net^
 ||buttons-config.sharethis.com^
-||www.googletagmanager.com^
+||googletagmanager.com^
 ||platform-api.sharethis.com^
 ||ad.a-ads.com^
 ||c.statcounter.com^
@@ -146,7 +146,7 @@
 ||api.ad.smaato.net^
 ||x.appbaqend.com^
 ||a.appbaqend.com^
-||www.twpejojsim.com^
+||twpejojsim.com^
 ||cdn.bootcss.com^
 ||ms.applovin.com^
 ||ms.applvn.com^
