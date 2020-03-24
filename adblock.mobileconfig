@@ -681,6 +681,12 @@
 									<string>juicyads.com</string>
 									<string>zalo-ads.zadn.vn</string>
 									<string>adsplay.net</string>
+									<string>cf.iadsdk.apple.com</string>
+									<string>mesu.apple.com</string>
+									<string>xp.apple.com</string>
+									<string>gdmf.apple.com</string>
+									<string>update-http.cdn-apple.com</string>
+									<string>ocsp.apple.com</string>
 									
 									</array>
 									<key>DomainAction</key>
