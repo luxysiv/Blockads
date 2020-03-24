@@ -828,9 +828,9 @@
 		</array>
 		<key>PayloadDescription</key>
 		<string>*Chặn quảng cáo
-		*Chặn cập nhật OTA
+*Chặn cập nhật OTA
 
-		**Được Mạnh Dương sửa lại trên cấu hình của FutureMind.
+**Được Mạnh Dương sửa lại trên cấu hình của FutureMind.
 </string>
 		<key>PayloadDisplayName</key>
 		<string>Manh Duong's AdBlock</string>
