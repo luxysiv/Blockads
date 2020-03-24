@@ -827,7 +827,9 @@
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
-		<string>Cấu hình chặn quảng cáo và cập nhật OTA được Mạnh Dương sửa lại trên cấu hình của FutureMind.
+		<string>*Chặn quảng cáo
+		*Chặn cập nhật OTA
+		**Được Mạnh Dương sửa lại trên cấu hình của FutureMind.
 </string>
 		<key>PayloadDisplayName</key>
 		<string>Enable AdBlock</string>
