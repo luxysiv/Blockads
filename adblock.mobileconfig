@@ -21,14 +21,14 @@
 								<dict>
 									<key>Domains</key>
 									<array>
-									<string>epom.com</string>
-									<string>test-enabled.adblockios.com</string>
-									<string>adv.wp.pl</string>
-									<string>csr.onet.pl</string>
-									<string>adman.gr</string>
-									<string>clickterra.net</string>
-									<string>padsdel.com</string>
-									<string>appsdt.com</string>
+									<string>pagead2.googlesyndication.com</string>
+									<string>doubleclick.net</string>
+									<string>e.crashlytics.com</string>
+									<string>ssl.google-analytics.com</string>
+									<string>chartboost.com</string>
+									<string>ad-brix.com</string>
+									<string>applifier.com</string>
+									<string>adcolony.com</string>
 									<string>inmobicdn.net</string>
 									<string>ketads.com</string>
 									<string>ucweb.com</string>
