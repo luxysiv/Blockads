@@ -833,11 +833,11 @@
 		**Được Mạnh Dương sửa lại trên cấu hình của FutureMind.
 </string>
 		<key>PayloadDisplayName</key>
-		<string>Enable AdBlock</string>
+		<string>Manh Duong's AdBlock profile</string>
 		<key>PayloadIdentifier</key>
 		<string>com.manhduong.adblock.config</string>
 		<key>PayloadOrganization</key>
-		<string>v1459327907</string>
+		<string>v1.1</string>
 		<key>PayloadRemovalDisallowed</key>
 		<false/>
 		<key>PayloadType</key>
