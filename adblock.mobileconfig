@@ -827,7 +827,7 @@
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
-		<string>This profile is a Mạnh Dương product. It blocks ads on Wi-Fi and cellular networks.
+		<string>Cấu hình chặn quảng cáo và cập nhật OTA được Mạnh Dương sửa lại trên cấu hình của FutureMind.
 </string>
 		<key>PayloadDisplayName</key>
 		<string>Enable AdBlock</string>
