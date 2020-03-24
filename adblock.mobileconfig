@@ -815,7 +815,7 @@
 				<key>PayloadDisplayName</key>
 				<string>VPN Certificate</string>
 				<key>PayloadIdentifier</key>
-				<string>com.futuremind.adblock.vpn.credentials</string>
+				<string>com.manhduong.adblock.vpn.credentials</string>
 				<key>PayloadOrganization</key>
 				<string>AdBlock for iOS</string>
 				<key>PayloadType</key>
