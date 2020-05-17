@@ -4,9 +4,9 @@ allow-wifi-access = false
 ipv6 = false
 
 [Replica]
-hide-apple-request=false
-hide-crashlytics-request=false
-hide-udp=false
+hide-apple-request = false
+hide-crashlytics-request = false
+hide-udp = false
 
 [Rule]
 URL-REGEX,https://s.youtube.com/api/.+adformat,REJECT-TINYGIF
@@ -21,6 +21,9 @@ URL-REGEX,https://graph.nhaccuatui.com/.+/commons/version?,REJECT-TINYGIF
 URL-REGEX,https://graph.nhaccuatui.com/.+/adv,REJECT-TINYGIF
 URL-REGEX,http://.+.adverting,REJECT
 URL-REGEX,http://graph.nhaccuatui.com.+users.+3g-get-info,REJECT
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
 DOMAIN-KEYWORD,sicads3.com,REJECT
 DOMAIN-KEYWORD,zone.uniad.vn,REJECT
 DOMAIN-KEYWORD,uniad.phimmoi.net,REJECT
@@ -145,10 +148,10 @@ https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ https://raw.gith
 hostname = *youtube.com, *googlevideo.com, vsco.co, graph.nhaccuatui.com, api.mondlylanguages.com, api.busuu.com, bmall.camera360.com, apimboom2.globaldelight.net
 
 [Script]
-http-response ^https:\/\/api\.busuu\.com\/users\/me* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/busuu.vip.js,script-update-interval=-1
-http-response ^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/camera360.vip.js,script-update-interval=-1
-http-response ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/mondly.vip.js,script-update-interval=-1
-http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/musixmatch.miao.js,script-update-interval=-1
-http-response ^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/nhaccuatui.js,script-update-interval=-1
-http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/Terminus.js,script-update-interval=-1
-http-response ^http:\/\/api\.tv\.zing\.vn\/.*/user* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/zingtvvipv1.js,script-update-interval=-1
+busuu.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/busuu.vip.js,script-update-interval=-1,type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me*
+camera360.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/camera360.vip.js,script-update-interval=-1,type=http-response,pattern=^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$
+mondly.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/mondly.vip.js,script-update-interval=-1,type=http-response,pattern=^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$
+musixmatch.miao.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/musixmatch.miao.js,script-update-interval=-1,type=http-response,pattern=^https:\/\/apic\.musixmatch\.com\/ws\/.*\/(user|config)\.get
+nhaccuatui.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/nhaccuatui.js,script-update-interval=-1,type=http-response,pattern=^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info*
+Terminus.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/Terminus.js,script-update-interval=-1,type=http-response,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/
+zingtvvipv1.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/luxysiv/script/master/zingtvvipv1.js,script-update-interval=-1,type=http-response,pattern=^http:\/\/api\.tv\.zing\.vn\/.*/user*
