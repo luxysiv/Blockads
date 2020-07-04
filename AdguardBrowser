@@ -13,6 +13,8 @@
 #iOS
 
 
+||vphim.net###pop
+||vphim.net###hide_float > a
 ||vphim.net##*> button.delete.is-large:last-child
 ||truyentv.net###sticky-footer > div.sticky-footer-content >*> img
 ||truyentv.net##div.*:nth-child(3) > div.bai-viet-box:nth-child(3) > center*
