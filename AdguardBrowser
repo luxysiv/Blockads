@@ -1,4 +1,19 @@
+#Android
+
+
+
 ||ftios.vn/cdn/vttnbanner.jpg$domain=ftios.vn
 ||vphim.net/js/adsvk_v3.js$domain=vphim.net
 ||truyentv.net^*gif
 ||truyentv.net/*.jpg$domain=truyentv.net
+
+
+
+
+#iOS
+
+
+||vphim.net##*> button.delete.is-large:last-child
+||truyentv.net###sticky-footer > div.sticky-footer-content >*> img
+||truyentv.net##div.*:nth-child(3) > div.bai-viet-box:nth-child(3) > center*
+||truyentv.net###sticky-footer > div.sticky-footer-content > span.sticky-x-button:last-child
