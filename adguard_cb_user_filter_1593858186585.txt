@@ -1,3 +1,0 @@
-||ftios.vn/cdn/vttnbanner.jpg$domain=ftios.vn
-||vphim.net/js/adsvk_v3.js$domain=vphim.net
-||truyentv.net^*gif
