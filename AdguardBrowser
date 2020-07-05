@@ -10,6 +10,7 @@
 ||vphim.net/js/adsvk_v3.js$domain=vphim.net
 ||truyentv.net^*gif
 ||truyentv.net/*.jpg$domain=truyentv.net
+||cudemvn.wap.sh/*> img._xt_ad_close:last-child
 
 
 
@@ -30,3 +31,4 @@ m.tinxe.vn###banner_footer > a:first-child > img
 m.tinxe.vn###wrapper > div.banner-top.mgb_*> a > img
 m.tinxe.vn###ads_frame > a > img.image-banner
 m.tinxe.vn###admbackground
+cudemvn.wap.sh###*> img._xt_ad_close:last-child
