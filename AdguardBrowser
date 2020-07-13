@@ -32,3 +32,4 @@ m.tinxe.vn###ads_frame > a > img.image-banner
 m.tinxe.vn###admbackground
 nettruyen.com##div.bx_wrapper_tik9:*>*> div.bx_wrapper_img_tik9:first-child
 nettruyen.com##div.bx_wrapper_tik9:*> div.bx_close_btn_tik9:first-child > svg
+nettruyen.com###aspnetForm > main.main:*> div.notify_block:first-child
