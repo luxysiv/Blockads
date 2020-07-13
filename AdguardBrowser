@@ -33,3 +33,4 @@ m.tinxe.vn###admbackground
 nettruyen.com##div.bx_wrapper_tik9:*>*> div.bx_wrapper_img_tik9:first-child
 nettruyen.com##div.bx_wrapper_tik9:*> div.bx_close_btn_tik9:first-child > svg
 nettruyen.com###aspnetForm > main.main:*> div.notify_block:first-child
+tinhte.vn###__next > div.root:first-child > div.jsx-*.main:*
