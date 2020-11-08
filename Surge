@@ -2,6 +2,7 @@
 loglevel = notify
 allow-wifi-access = false
 ipv6 = false
+doh-server = https://fcpp2cstvx.cloudflare-gateway.com/dns-query
 
 [Replica]
 hide-apple-request = false
@@ -9,6 +10,14 @@ hide-crashlytics-request = false
 hide-udp = false
 
 [Rule]
+USER-AGENT,ovstower/21015 CFNetwork/1197 Darwin/20.0.0,DIRECT
+USER-AGENT,FBiOSSDK*,REJECT-TINYGIF
+USER-AGENT,MoMoApp-Release/21550 CFNetwork/1197 Darwin/20.0.0,DIRECT
+USER-AGENT,ovstower/20927 CFNetwork/1197 Darwin/20.0.0,DIRECT
+URL-REGEX,^http:\/\/c\.data\.mob\.com\/v3\/cdata$,REJECT-TINYGIF
+URL-REGEX,^http:\/\/pandora\.dragonest\.com\/notice\/preLoginNotice\?env=google&language=11&country=VN&channel=0&download=vietnam_ios&apkVersion=1\.4\.0&platform=2$,REJECT-TINYGIF
+URL-REGEX,^http:\/\/pandora\.dragonest\.com\/notice\?env=google&language=11&country=VN&channel=1&download=vietnam_ios&apkVersion=1\.4\.0&platform=2&userid=YW8SE9&label=popPictureNotice$,REJECT-TINYGIF
+URL-REGEX,^http:\/\/pandora\.dragonest\.com\/\?env=google&language=11&country=VN&channel=0&download=vietnam_ios&apkVersion=1\.4\.0&platform=2&label=pictureTextNotice$,REJECT-TINYGIF
 URL-REGEX,https://s.youtube.com/api/.+adformat,REJECT-TINYGIF
 URL-REGEX,https://.+.googlevideo.com/.+&oad,REJECT-TINYGIF
 URL-REGEX,https://.+.googlevideo.com/.+ctier,REJECT-TINYGIF
@@ -19,37 +28,38 @@ URL-REGEX,https://www.youtube.com/pagead,REJECT-TINYGIF
 URL-REGEX,https://youtubei.googleapis.com/youtubei/.+/log_event,REJECT-TINYGIF
 URL-REGEX,https://graph.nhaccuatui.com/.+/commons/version?,REJECT-TINYGIF
 URL-REGEX,https://graph.nhaccuatui.com/.+/adv,REJECT-TINYGIF
-URL-REGEX,http://.+.adverting,REJECT
-URL-REGEX,http://graph.nhaccuatui.com.+users.+3g-get-info,REJECT
-DOMAIN,mesu.apple.com,REJECT
-DOMAIN,gdmf.apple.com,REJECT
-DOMAIN,xp.apple.com,REJECT
-DOMAIN-KEYWORD,sicads3.com,REJECT
-DOMAIN-KEYWORD,zone.uniad.vn,REJECT
-DOMAIN-KEYWORD,uniad.phimmoi.net,REJECT
-DOMAIN-KEYWORD,zalo-ads.zadn.vn,REJECT
-DOMAIN-KEYWORD,tvnotice.kg.garena.vn,REJECT
-DOMAIN-KEYWORD,beacon.qq.com,REJECT
-DOMAIN-KEYWORD,ads.google.com,REJECT
-DOMAIN-KEYWORD,adnxs.com,REJECT
-DOMAIN-KEYWORD,ad-tag.inner-active.mobi,REJECT
-DOMAIN-KEYWORD,amazon-adsystem.com,REJECT
-DOMAIN-KEYWORD,blueseed.tv,REJECT
-DOMAIN-KEYWORD,userreport.com,REJECT
-DOMAIN-KEYWORD,blueserving.com,REJECT
-DOMAIN-KEYWORD,ambientplatform.vn,REJECT
-DOMAIN-KEYWORD,gammaplatform.com,REJECT
-DOMAIN-KEYWORD,aj1010.online,REJECT
-DOMAIN-KEYWORD,mgid.com,REJECT
-DOMAIN-KEYWORD,scorecardresearch.com,REJECT
-DOMAIN-KEYWORD,admicro.vn,REJECT
-DOMAIN-KEYWORD,adxxx.info,REJECT
-DOMAIN-KEYWORD,clickopop1000.com,REJECT
-DOMAIN-KEYWORD,adtarget.tech,REJECT
-DOMAIN-KEYWORD,sdkclick.com,REJECT
+URL-REGEX,http://.+.adverting,REJECT-TINYGIF
+URL-REGEX,http://graph.nhaccuatui.com.+users.+3g-get-info,REJECT-TINYGIF
+DOMAIN,www.googletagmanager.com,REJECT-TINYGIF
+DOMAIN,mesu.apple.com,REJECT-TINYGIF
+DOMAIN,gdmf.apple.com,REJECT-TINYGIF
+DOMAIN,xp.apple.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,sicads3.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,zone.uniad.vn,REJECT-TINYGIF
+DOMAIN-KEYWORD,uniad.phimmoi.net,REJECT-TINYGIF
+DOMAIN-KEYWORD,zalo-ads.zadn.vn,REJECT-TINYGIF
+DOMAIN-KEYWORD,tvnotice.kg.garena.vn,REJECT-TINYGIF
+DOMAIN-KEYWORD,beacon.qq.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,ads.google.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,adnxs.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,ad-tag.inner-active.mobi,REJECT-TINYGIF
+DOMAIN-KEYWORD,amazon-adsystem.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,blueseed.tv,REJECT-TINYGIF
+DOMAIN-KEYWORD,userreport.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,blueserving.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,ambientplatform.vn,REJECT-TINYGIF
+DOMAIN-KEYWORD,gammaplatform.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,aj1010.online,REJECT-TINYGIF
+DOMAIN-KEYWORD,mgid.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,scorecardresearch.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,admicro.vn,REJECT-TINYGIF
+DOMAIN-KEYWORD,adxxx.info,REJECT-TINYGIF
+DOMAIN-KEYWORD,clickopop1000.com,REJECT-TINYGIF
+DOMAIN-KEYWORD,adtarget.tech,REJECT-TINYGIF
+DOMAIN-KEYWORD,sdkclick.com,REJECT-TINYGIF
 DOMAIN-KEYWORD,mobtrack.co,REJECT
-DOMAIN-KEYWORD,admile.offerstrack.net,REJECT
-DOMAIN-KEYWORD,rdtcdn.com,REJECT
+DOMAIN-KEYWORD,admile.offerstrack.net,REJECT-TINYGIF
+DOMAIN-KEYWORD,rdtcdn.com,REJECT-TINYGIF
 DOMAIN-KEYWORD,cdn.livechatinc.com,REJECT
 DOMAIN-KEYWORD,bootstrapcdn.com,REJECT
 DOMAIN-KEYWORD,trafficjunky.net,REJECT
@@ -80,7 +90,7 @@ DOMAIN-KEYWORD,chartboost.com,REJECT
 DOMAIN-KEYWORD,ad-brix.com,REJECT
 DOMAIN-KEYWORD,impact.applifier.com,REJECT
 DOMAIN-KEYWORD,adcolony.com,REJECT
-DOMAIN-KEYWORD,startappservice.com,REJECT
+DOMAIN-KEYWORD,startappservice,REJECT
 DOMAIN-KEYWORD,www.adtilt.com,REJECT
 DOMAIN-KEYWORD,appsflyer.com,REJECT
 DOMAIN-KEYWORD,cf.iadsdk.apple.com,REJECT
@@ -138,11 +148,46 @@ DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
 DOMAIN-KEYWORD,zalo-ads-td.zadn.vn,REJECT
 DOMAIN-KEYWORD,gstaticadssl.l.google.com,REJECT
 DOMAIN-KEYWORD,doubleclick.net,REJECT
-DOMAIN-KEYWORD,4hag.adj.st,REJECT
+DOMAIN-KEYWORD,4hag.adj.st,REJECT-TINYGIF
 FINAL,DIRECT
 
+[Host]
+*unity3d.com = 0.0.0.0
+ng-vn-notice.gameitop.com = 0.0.0.0
+*appsflyer.com = 0.0.0.0
+tvnotice.kg.garena.vn = 0.0.0.0
+log.sdk.zadn.vn = 0.0.0.0
+*moatads.com = 0.0.0.0
+*adtilt.com = 0.0.0.0
+*startappservice* = 0.0.0.0
+*adcolony.com = 0.0.0.0
+zalo-qr-stickers.zadn.vn = 0.0.0.0
+*appbaqend.com = 0.0.0.0
+*criteo.com = 0.0.0.0
+*umengcloud.com = 0.0.0.0
+adservice* = 0.0.0.0
+*applvn.com = 0.0.0.0
+*umeng.com = 0.0.0.0
+*mopub.com = 0.0.0.0
+*chartboost.com = 0.0.0.0
+*bugly.qq.com = 0.0.0.0
+*doubleclick* = 0.0.0.0
+*googlead* = 0.0.0.0
+*applovin* = 0.0.0.0
+app.adjust.com = 0.0.0.0
+cf.iadsdk.apple.com = 0.0.0.0
+ocsp.apple.com = 0.0.0.0
+log.api.zaloapp.com = 0.0.0.0
+shop.zaloapp.com = 0.0.0.0
+settings.crashlytics.com = 0.0.0.0
+res-zalo.zadn.vn = 0.0.0.0
+store-photo-s500.zdn.vn = 0.0.0.0
+discovery.api.zaloapp.com = 0.0.0.0
+*adtima* = 0.0.0.0
+
 [URL Rewrite]
-https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ https://raw.githubusercontent.com/luxysiv/script/master/boom.vip.rsp 302
+ctier=[A-Z] citer=A 302
+
 
 [MITM]
 hostname = *youtube.com, *googlevideo.com, vsco.co, graph.nhaccuatui.com, api.mondlylanguages.com, api.busuu.com, bmall.camera360.com, apimboom2.globaldelight.net
