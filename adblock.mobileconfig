@@ -21,672 +21,199 @@
 								<dict>
 									<key>Domains</key>
 									<array>
-									<string>pagead2.googlesyndication.com</string>
-									<string>doubleclick.net</string>
-									<string>e.crashlytics.com</string>
-									<string>ssl.google-analytics.com</string>
-									<string>chartboost.com</string>
-									<string>ad-brix.com</string>
-									<string>api.leanplum.com</string>
-									<string>adcolony.com</string>
-									<string>inmobicdn.net</string>
-									<string>ketads.com</string>
-									<string>startappservice.com</string>
-									<string>adtimaserver.vn</string>
-									<string>appsflyer.com</string>
-									<string>adtima-media.zadn.vn</string>
-									<string>ng-vn-notice.gameitop.com</string>
-									<string>clickhubs.com</string>
-									<string>superads.c</string>
-									<string>vpon.com</string>
-									<string>adex.bmediaasia.com</string>
-									<string>terraclicks.com</string>
-									<string>adsupply.com</string>
-									<string>castplatform.com</string>
-									<string>liveintent.com</string>
-									<string>s1.2mdn.net</string>
-									<string>admtpmp127.com</string>
-									<string>admtpmp124.com</string>
-									<string>admtpmp123.com</string>
-									<string>keywordblocks.com</string>
-									<string>mobusi.com</string>
-									<string>leadzu.com</string>
-									<string>redintelligence.net</string>
-									<string>redtram.com</string>
-									<string>chango.com</string>
-									<string>sharethrough.com</string>
-									<string>tapjoyads.com</string>
-									<string>upsight-api.com</string>
-									<string>zestadz.com</string>
-									<string>adthor.com</string>
-									<string>fuse-ad.com</string>
-									<string>zcoup.com</string>
-									<string>fluct.jp</string>
-									<string>glossom.co.jp</string>
-									<string>sharethis.com</string>
-									<string>leadgid.ru</string>
-									<string>mixi.co.jp</string>
-									<string>ads1.jp.msn.com</string>
-									<string>advertising.jp.msn.com</string>
-									<string>c.jp.msn.com</string>
-									<string>utm.sankei.jp.msn.com</string>
-									<string>inmobi-jp.com</string>
-									<string>listing.yahoo.co.jp</string>
-									<string>ov.yahoo.co.jp</string>
-									<string>bc.geocities.yahoo.co.jp</string>
-									<string>yeas.yahoo.co.jp</string>
-									<string>ah.yimg.jp</string>
-									<string>actionads.ru</string>
-									<string>actionteaser.ru</string>
-									<string>actionpay.ru</string>
-									<string>adbouc.com</string>
-									<string>addflow.ru</string>
-									<string>addweb.ru</string>
-									<string>userator.ru</string>
-									<string>adname.ru</string>
-									<string>adpremium.ru</string>
-									<string>adselector.ru</string>
-									<string>adteaser.ru</string>
-									<string>adwad.ru</string>
-									<string>psma02.com</string>
-									<string>adservone.com</string>
-									<string>awaps.yandex.ru</string>
-									<string>bdzhhjnml.pw</string>
-									<string>block.s5block.com</string>
-									<string>cityads.ru</string>
-									<string>cszz.ru</string>
-									<string>medialand.ru</string>
-									<string>medianetworks.ru</string>
-									<string>onedmp.com</string>
-									<string>pay-click.ru</string>
-									<string>redclick.ru</string>
-									<string>teasernet.com</string>
-									<string>yluvo.com</string>
-									<string>nyyed.com</string>
-									<string>v.vsimasd.pw</string>
-									<string>c.yjvfuzdr.pw</string>
-									<string>visitweb.com</string>
-									<string>adkontekst.pl</string>
-									<string>plista.com</string>
-									<string>clickonometrics.pl</string>
-									<string>delivery.trafficforce.com</string>
-									<string>doprads.jp</string>
-									<string>app-adforce.jp</string>
-									<string>zucks.co.jp</string>
-									<string>zucks.net</string>
-									<string>online-dn.com</string>
-									<string>yads.yahoo.co.jp</string>
-									<string>astrsk.net</string>
-									<string>maist.jp</string>
-									<string>dynalyst.jp</string>
-									<string>zimg.jp</string>
-									<string>adex2.bmediaasia.com</string>
-									<string>chartboost.com</string>
-									<string>mediba.jp</string>
-									<string>ad1.ru</string>
-									<string>admitad.com</string>
-									<string>adtime.ru</string>
-									<string>gredinatib.info</string>
-									<string>bodyclick.net</string>
-									<string>hghit.com</string>
-									<string>leads.su</string>
-									<string>mobileader.ru</string>
-									<string>pc2ads.ru</string>
-									<string>re-directme.com</string>
-									<string>ttarget.ru</string>
-									<string>yadro.ru</string>
-									<string>contentstream.pl</string>
-									<string>sprout-ad.com</string>
-									<string>gemini.yahoo.com</string>
-									<string>directadvert.net</string>
-									<string>lentainform.com</string>
-									<string>c.jsrdn.com</string>
-									<string>googleads.g.doubleclick.net</string>
-									<string>cdn.caprofitx.com</string>
-									<string>ox-d.majorgeeks.com</string>
-									<string>eclkmpsa.com</string>
-									<string>pubads.g.doubleclick.net</string>
-									<string>intowow.applefeed.com.tw</string>
-									<string>ox-d.advanceweb.com</string>
-									<string>n208adserv.com</string>
-									<string>delivery.brokerbabe.com</string>
-									<string>imedia.cz</string>
-									<string>vendimob.pl</string>
-									<string>leadboltapps.net</string>
-									<string>et-code.ru</string>
-									<string>asp.animelab.com</string>
-									<string>igp06.gameloft.com</string>
-									<string>igpiphone.gameloft.com</string>
-									<string>crosspromo.zeptolab.com</string>
-									<string>bms.zeptolab.com</string>
-									<string>ziiporn.com</string>
-									<string>contentabc.com</string>
-									<string>adserver.mgsex.com</string>
-									<string>adformdsp.net</string>
-									<string>o.aolcdn.com</string>
-									<string>projectwonderful.com</string>
-									<string>pagead2.googlesyndication.com</string>
-									<string>adserve.gzero.com</string>
-									<string>ad360.vn</string>
-									<string>adsnative.com</string>
-									<string>reklamport.com</string>
-									<string>openx.com</string>
-									<string>advaction.ru</string>
-									<string>kadam.net</string>
-									<string>leadtrade.su</string>
-									<string>mobioffers.ru</string>
-									<string>pingmedia.ru</string>
-									<string>rotaban.ru</string>
-									<string>nextclick.pl</string>
-									<string>unityads.unity3d.com</string>
-									<string>fam-ad.com</string>
-									<string>adinte.jp</string>
-									<string>nex8.net</string>
-									<string>imobile.jp</string>
-									<string>liftoff.io</string>
-									<string>user-agent-tracker.herokuapp.com</string>
-									<string>guile.jp</string>
-									<string>unitedblades.co.jp</string>
-									<string>cdn.media.amp.avai.com</string>
-									<string>airpush.com</string>
-									<string>adnium.com</string>
-									<string>billytesting.com</string>
-									<string>gumgum.com</string>
-									<string>untd.com</string>
-									<string>adverticum.net</string>
-									<string>mobads.baidu.com</string>
-									<string>ubmcmm.baidustatic.com</string>
-									<string>eiv.baidu.com</string>
-									<string>pos.baidu.com</string>
-									<string>cb.baidu.com</string>
-									<string>cbjs.baidu.com</string>
-									<string>cpro.baidu.com</string>
-									<string>drmcmm.baidu.com</string>
-									<string>duiwai.baidu.com</string>
-									<string>hao123union.baidu.com</string>
-									<string>jsmbaidu.com</string>
-									<string>spcode.baidu.com</string>
-									<string>iwanad.baidu.com</string>
-									<string>adnetworkperformance.com</string>
-									<string>engine.a.redditmedia.com</string>
-									<string>partnerads.ysm.yahoo.com</string>
-									<string>wbdds.jeuxvideo.com</string>
-									<string>i.l.networld.hk</string>
-									<string>ipla.hit.stat24.com</string>
-									<string>manage.com</string>
-									<string>ad2play.ftv-publicite.fr</string>
-									<string>wafmedia5.com</string>
-									<string>hkg1.aastocks.com</string>
-									<string>traffpartners.com</string>
-									<string>widespace.com</string>
-									<string>mobile.yandexadexchange.net</string>
-									<string>amazemobilemedia.com</string>
-									<string>201205igp.gameloft.com</string>
-									<string>insightexpressai.com</string>
-									<string>visualrevenue.com</string>
-									<string>damoh.spiegel.de</string>
-									<string>pagead1.googlesyndication.com</string>
-									<string>innity.net</string>
-									<string>info.a7.org</string>
-									<string>sekindo.com</string>
-									<string>veeseo.com</string>
-									<string>mob-server.com</string>
-									<string>ads.bhol.co.il</string>
-									<string>fus.walla.co.il</string>
-									<string>ads.ontarget.mobi</string>
-									<string>alea.adam.daum.net</string>
-									<string>yads.c.yimg.jp</string>
-									<string>smartads.mobile.yahoo.co.jp</string>
-									<string>atedra.com</string>
-									<string>fus.yad2.co.il</string>
-									<string>intermarkets.net</string>
-									<string>adgear.com</string>
-									<string>premium.2ch.net</string>
-									<string>msads.net</string>
-									<string>gmossp-sp.jp</string>
-									<string>ad.pr.ameba.jp</string>
-									<string>adelva.com</string>
-									<string>ad.ettoday.net</string>
-									<string>bounceexchange.com</string>
-									<string>medyanetads.com</string>
-									<string>adserver.yahoo.com</string>
-									<string>tremormedia.com</string>
-									<string>ad.mail.ru</string>
-									<string>scanscout.com</string>
-									<string>swrve.com</string>
-									<string>liveadexchanger.com</string>
-									<string>opt.ximad.com</string>
-									<string>adspending01.bwnet.com.tw</string>
-									<string>cj.com</string>
-									<string>conversantmedia.com</string>
-									<string>lduhtrp.net</string>
-									<string>domobcdn.com</string>
-									<string>domob.cn</string>
-									<string>nspmotion.com</string>
-									<string>ad1.on.cc</string>
-									<string>pagead3.googlesyndication.com</string>
-									<string>media-b.jp</string>
-									<string>advancets.org</string>
-									<string>kibirata.ru</string>
-									<string>m1-shop.ru</string>
-									<string>r0.mradx.net</string>
-									<string>salesdoubler.com.ua</string>
-									<string>2o7.net</string>
-									<string>omniture.com</string>
-									<string>adsymptotic.com</string>
-									<string>awempire.com</string>
-									<string>ad132m.com</string>
-									<string>a.jumptap.com</string>
-									<string>advertbox.ru</string>
-									<string>kma.biz</string>
-									<string>mbn.su</string>
-									<string>r.mail.ru</string>
-									<string>r0.mail.ru</string>
-									<string>seed.by</string>
-									<string>adap.tv</string>
-									<string>adblade.com</string>
-									<string>adbooth.net</string>
-									<string>adcash.com</string>
-									<string>adcolony.com</string>
-									<string>adexprt.com</string>
-									<string>adfonic.net</string>
-									<string>adform.com</string>
-									<string>adform.net</string>
-									<string>adfox.ru</string>
-									<string>adinch.com</string>
-									<string>adinfuse.com</string>
-									<string>adition.com</string>
-									<string>adjuggler.net</string>
-									<string>akncdn.com</string>
-									<string>adkeeper.com</string>
-									<string>ackak.com</string>
-									<string>admarvel.com</string>
-									<string>atemda.com</string>
-									<string>admeta.com</string>
-									<string>adver.mobi</string>
-									<string>admobi.ru</string>
-									<string>adocean.pl</string>
-									<string>adotube.com</string>
-									<string>adriver.ru</string>
-									<string>adroll.com</string>
-									<string>adsniper.ru</string>
-									<string>4dsply.com</string>
-									<string>adtaily.com</string>
-									<string>adtaily.pl</string>
-									<string>adtech.de</string>
-									<string>adtechus.com</string>
-									<string>adtilt.com</string>
-									<string>adtoma.com</string>
-									<string>adtotal.pl</string>
-									<string>adtrace.org</string>
-									<string>adnxs.com</string>
-									<string>adversal.com</string>
-									<string>advolution.de</string>
-									<string>adwhirl.com</string>
-									<string>adzerk.com</string>
-									<string>adzerk.net</string>
-									<string>altrooz.com</string>
-									<string>amazon-adsystem.com</string>
-									<string>amobee.com</string>
-									<string>advertising.com</string>
-									<string>appflood.com</string>
-									<string>applovin.com</string>
-									<string>apprupt.com</string>
-									<string>atdmt.com</string>
-									<string>bcfads.com</string>
-									<string>bnmla.com</string>
-									<string>brightroll.com</string>
-									<string>brightroll.de</string>
-									<string>btrll.com</string>
-									<string>appads.com</string>
-									<string>buysellads.com</string>
-									<string>content.ad</string>
-									<string>cpmstar.com</string>
-									<string>emediate.dk</string>
-									<string>exoclick.com</string>
-									<string>exponential.com</string>
-									<string>flurry.com</string>
-									<string>fwmrm.net</string>
-									<string>greystripe.com</string>
-									<string>hotwords.com</string>
-									<string>inmobi.com</string>
-									<string>inmobicdn.com</string>
-									<string>inner-active.mobi</string>
-									<string>innovid.com</string>
-									<string>integral-marketing.com</string>
-									<string>lijit.com</string>
-									<string>liverail.com</string>
-									<string>mads.com</string>
-									<string>madsone.com</string>
-									<string>madvertise.de</string>
-									<string>uimserv.net</string>
-									<string>m2pub.com</string>
-									<string>mdotm.com</string>
-									<string>medialytics.com</string>
-									<string>medialets.com</string>
-									<string>serving-sys.com</string>
-									<string>smartclip.net</string>
-									<string>eyewonder.com</string>
-									<string>mydas.mobi</string>
-									<string>mobclix.com</string>
-									<string>mobfox.com</string>
-									<string>mobilefuse.com</string>
-									<string>mobilefuse.net</string>
-									<string>wmip.ru</string>
-									<string>wwwpromoter.com</string>
-									<string>zwaar.org</string>
-									<string>pushnative.com</string>
-									<string>googletagservices.com</string>
-									<string>ecpmrocks.com</string>
-									<string>googleadservices.com</string>
-									<string>mobiads.ru</string>
-									<string>ma-static.ru</string>
-									<string>kimia.es</string>
-									<string>ad2.on.cc</string>
-									<string>ad3.on.cc</string>
-									<string>ad4.on.cc</string>
-									<string>mobiletheory.com</string>
-									<string>mocean.mobi</string>
-									<string>mojiva.com</string>
-									<string>mopub.com</string>
-									<string>nexage.com</string>
-									<string>openvideoads.com</string>
-									<string>playhaven.com</string>
-									<string>playnomics.net</string>
-									<string>adk2.co</string>
-									<string>pflexads.com</string>
-									<string>popadscdn.net</string>
-									<string>propellerads.com</string>
-									<string>quantcount.com</string>
-									<string>revmob.com</string>
-									<string>yieldmanager.com</string>
-									<string>rubiconproject.com</string>
-									<string>rnmd.net</string>
-									<string>aimatch.com</string>
-									<string>smaato.com</string>
-									<string>smaato.net</string>
-									<string>smartadserver.com</string>
-									<string>taboolasyndication.com</string>
-									<string>taboola.com</string>
-									<string>tradedoubler.com</string>
-									<string>globaltraffico.com</string>
-									<string>traffichaus.com</string>
-									<string>rarenok.biz</string>
-									<string>transpera.com</string>
-									<string>tribalfusion.com</string>
-									<string>andomedia.com</string>
-									<string>readserver.net</string>
-									<string>rtbpop.com</string>
-									<string>1phads.com</string>
-									<string>fastclick.net</string>
-									<string>vdopia.com</string>
-									<string>intellitxt.com</string>
-									<string>vserv.mobi</string>
-									<string>wigetmedia.com</string>
-									<string>yoc.mobi</string>
-									<string>yumenetworks.com</string>
-									<string>zedo.com</string>
-									<string>zumobi.com</string>
-									<string>admob.com</string>
-									<string>mobi.yanosik.pl</string>
-									<string>dotandad.com</string>
-									<string>adlantis.jp</string>
-									<string>amoad.com</string>
-									<string>app-c.net</string>
-									<string>i-mobile.co.jp</string>
-									<string>hot-mob.com</string>
-									<string>snapmobile.asia</string>
-									<string>carbonads.com</string>
-									<string>carbonads.net</string>
-									<string>nend.net</string>
-									<string>adingo.jp</string>
-									<string>ad-v.jp</string>
-									<string>behaviad.net</string>
-									<string>eclick.vn</string>
-									<string>microad.jp</string>
-									<string>unthem.com</string>
-									<string>zestads.com</string>
-									<string>adbomb.ru</string>
-									<string>adfog.ru</string>
-									<string>applifier.com</string>
-									<string>heyzap.com</string>
-									<string>leadbolt.com</string>
-									<string>leadbolt.net</string>
-									<string>accesstrade.net</string>
-									<string>ad-cloud.jp</string>
-									<string>ad-move.jp</string>
-									<string>ad.mist.jp</string>
-									<string>adjust-net.jp</string>
-									<string>adjust.com</string>
-									<string>adresult-sp.jp</string>
-									<string>ads.nicovideo.jp</string>
-									<string>advg.jp</string>
-									<string>applvn.com</string>
-									<string>aimg.fc2.com</string>
-									<string>atech.ne.jp</string>
-									<string>bead-ad.com</string>
-									<string>bnr.rssad.jp</string>
-									<string>buzzurl.jp</string>
-									<string>bypass.jp</string>
-									<string>consearch.jp</string>
-									<string>cyberwing.co.jp</string>
-									<string>d2c.ne.jp</string>
-									<string>fm-p.jp</string>
-									<string>fout.jp</string>
-									<string>gigazine.asia</string>
-									<string>h2.msn.com</string>
-									<string>ichi-ni-san.net</string>
-									<string>image.click.livedoor.com</string>
-									<string>impact-ad.jp</string>
-									<string>jlisting.jp</string>
-									<string>kau.li</string>
-									<string>livead.jp</string>
-									<string>mb-click.jp</string>
-									<string>medibaad.com</string>
-									<string>mreco0.jp</string>
-									<string>mucu.jp</string>
-									<string>performancehorizon.com</string>
-									<string>exit-ad.com</string>
-									<string>tapjoy.com</string>
-									<string>adcv.jp</string>
-									<string>ad-stir.com</string>
-									<string>adimg.net</string>
-									<string>nclick.org</string>
-									<string>nclick.ru</string>
-									<string>ad5.on.cc</string>
-									<string>ad6.on.cc</string>
-									<string>spstaticimg.ameba.jp</string>
-									<string>trafficgate.net</string>
-									<string>valuecommerce.com</string>
-									<string>webtracker.jp</string>
-									<string>yicha.jp</string>
-									<string>fancrew.jp</string>
-									<string>affiliate.fc2.com</string>
-									<string>rad.msn.com</string>
-									<string>stjjp.msn.com</string>
-									<string>udc.msn.com</string>
-									<string>a8.net</string>
-									<string>smart-c.jp</string>
-									<string>sbs-ad.com</string>
-									<string>logly.co.jp</string>
-									<string>newzia.jp</string>
-									<string>san-ni-ichi.com</string>
-									<string>owb101.goo.ne.jp</string>
-									<string>altnet.jp</string>
-									<string>openclick.com</string>
-									<string>trafficfactory.biz</string>
-									<string>reporo.net</string>
-									<string>ad.adworx.at</string>
-									<string>adbn.ru</string>
-									<string>adbuddiz.com</string>
-									<string>adcast.ru</string>
-									<string>adcomplete.ru</string>
-									<string>addthis.com</string>
-									<string>adflow.ru</string>
-									<string>adhands.ru</string>
-									<string>adhese.com</string>
-									<string>adhub.ru</string>
-									<string>luxup.ru</string>
-									<string>admaster.net</string>
-									<string>admulti.ru</string>
-									<string>adorika.net</string>
-									<string>interseek.si</string>
-									<string>adpro.com.ua</string>
-									<string>adrock.ru</string>
-									<string>adrock.ua</string>
-									<string>adrock.com.ua</string>
-									<string>adrotator.se</string>
-									<string>adshost2.com</string>
-									<string>adsmogo.mobi</string>
-									<string>adsmogo.net</string>
-									<string>adspirit.de</string>
-									<string>adstark.ru</string>
-									<string>ad-sys.com</string>
-									<string>adview.pl</string>
-									<string>am15.net</string>
-									<string>adztec.com</string>
-									<string>atwola.com</string>
-									<string>cdn.applift.com</string>
-									<string>bubblesmedia.ru</string>
-									<string>directrev.com</string>
-									<string>doubleverify.com</string>
-									<string>europacash.com</string>
-									<string>sponsorpay.com</string>
-									<string>360yield.com</string>
-									<string>infolinks.com</string>
-									<string>kiip.me</string>
-									<string>kochava.com</string>
-									<string>lfstmedia.com</string>
-									<string>ligatus.com</string>
-									<string>marketgid.com</string>
-									<string>atlassbx.com</string>
-									<string>marsads.com</string>
-									<string>ad127m.com</string>
-									<string>xtendmedia.com</string>
-									<string>ad131m.com</string>
-									<string>ad120m.com</string>
-									<string>adsmarket.com</string>
-									<string>adland.ru</string>
-									<string>media.net</string>
-									<string>mgid.com</string>
-									<string>cdn.millennialmedia.com</string>
-									<string>movad.de</string>
-									<string>nuggad.net</string>
-									<string>openx.org</string>
-									<string>openxenterprise.com</string>
-									<string>openx.net</string>
-									<string>otherlevels.com</string>
-									<string>adpdx.com</string>
-									<string>adverserve.net</string>
-									<string>iconpeak.com</string>
-									<string>cb-cdn.com</string>
-									<string>questionmarket.com</string>
-									<string>socdm.com</string>
-									<string>midasplayer.com</string>
-									<string>servicelayer.king.com</string>
-									<string>tb.itmedia.co.jp</string>
-									<string>trax-ad.jp</string>
-									<string>ads.yahoo.com</string>
-									<string>soundwave.mobile.yahoo.com</string>
-									<string>adcdn.goo.ne.jp</string>
-									<string>ad.goo.ne.jp</string>
-									<string>popads.net</string>
-									<string>propellerpops.com</string>
-									<string>onclickads.net</string>
-									<string>pubmatic.com</string>
-									<string>api.pubnative.net</string>
-									<string>recreativ.ru</string>
-									<string>eacdn.com</string>
-									<string>startapp.com</string>
-									<string>startappexchange.com</string>
-									<string>supersonicads.com</string>
-									<string>ultraadserver.com</string>
-									<string>appshelf.ttpsdk.info</string>
-									<string>houseads.ttpsdk.info</string>
-									<string>connect.decknetwork.net</string>
-									<string>trafficjunky.com</string>
-									<string>trafficjunky.net</string>
-									<string>trafmag.com</string>
-									<string>tremorhub.com</string>
-									<string>admngronline.com</string>
-									<string>everestads.net</string>
-									<string>adcel.vrvm.com</string>
-									<string>videoplaza.tv</string>
-									<string>videoplaza.com</string>
-									<string>vkmonster.com</string>
-									<string>vungle.com</string>
-									<string>yieldmo.com</string>
-									<string>ads-v-darwin.hulu.com</string>
-									<string>emediate.se</string>
-									<string>emediate.eu</string>
-									<string>revcontent.com</string>
-									<string>outbrain.com</string>
-									<string>mobiright.com</string>
-									<string>kixer.com</string>
-									<string>clkdeals.com</string>
-									<string>clkrev.com</string>
-									<string>clkmon.com</string>
-									<string>adfalcon.com</string>
-									<string>ad4game.com</string>
-									<string>uauniverse.com</string>
-									<string>movi11.com</string>
-									<string>trafficposse.com</string>
-									<string>doubleclick.net </string>
-									<string>chitika.net</string>
-									<string>teads.tv</string>
-									<string>bidvertiser.com</string>
-									<string>24s.ru</string>
-									<string>addisp.com</string>
-									<string>addnow.ru</string>
-									<string>adizer.ru</string>
-									<string>adk2x.com</string>
-									<string>admaster.com.cn</string>
-									<string>adnotch.com</string>
-									<string>adpix.ru</string>
-									<string>adsclick.ru</string>
-									<string>adsellers.net</string>
-									<string>adspeed.com</string>
-									<string>adtraff.ru</string>
-									<string>advertpay.ru</string>
-									<string>advertserve.com</string>
-									<string>an.yandex.ru</string>
-									<string>bannerbank.ru</string>
-									<string>bannerflow.com</string>
-									<string>bbelements.com</string>
-									<string>begun.ru</string>
-									<string>criteo.com</string>
-									<string>fyber.com</string>
-									<string>goodadvert.com.ua</string>
-									<string>lcads.ru</string>
-									<string>livesmi.com</string>
-									<string>mg.dt00.net</string>
-									<string>mobytrks.com</string>
-									<string>mpnrs.com</string>
-									<string>neoban.su</string>
-									<string>openvideoads.org</string>
-									<string>profitwizard.ru</string>
-									<string>rs.mail.ru</string>
-									<string>seopult.ru</string>
-									<string>startappservice.com</string>
-									<string>adru.net</string>
-									<string>avocarrot.com</string>
-									<string>advertstar.net</string>
-									<string>ladycash.ru</string>
-									<string>myragon.ru</string>
-									<string>novostimira.biz</string>
-									<string>smartadserver.ru</string>
-									<string>wafmedia3.com</string>
-									<string>pagead.googlesyndication.com</string>
-									<string>ad7.on.cc</string>
-									<string>juicyads.com</string>
-									<string>zalo-ads.zadn.vn</string>
-									<string>adsplay.net</string>
-									<string>cf.iadsdk.apple.com</string>
-									<string>mesu.apple.com</string>
-									<string>xp.apple.com</string>
-									<string>gdmf.apple.com</string>
-									<string>update-http.cdn-apple.com</string>
-									<string>ocsp.apple.com</string>
+									<string>4hag.adj.st</string>
+<string>a.appbaqend.com</string>
+<string>a.applovin.com</string>
+<string>a.applvn.com</string>
+<string>ad.360in.com</string>
+<string>ad.a-ads.com</string>
+<string>adc3-launch.adcolony.com</string>
+<string>adimpression.startappservice.com</string>
+<string>ads.aerserv.com</string>
+<string>ads.api.vungle.com</string>
+<string>ads.flurry.com</string>
+<string>ads.google.com</string>
+<string>ads.mopub.com</string>
+<string>ads.platform.zalo.me</string>
+<string>ads30.adcolony.com</string>
+<string>adservice.google.com</string>
+<string>adsmetadata.startappservice.com</string>
+<string>adtima-common.zadn.vn</string>
+<string>adtima-media.zadn.vn</string>
+<string>adtima-static.zadn.vn</string>
+<string>adtrack1.midasplayer.com</string>
+<string>ai.login.umeng.com</string>
+<string>ailamtrieuphu.com</string>
+<string>analytics.rayjump.com</string>
+<string>api-eu.bidmachine.io</string>
+<string>api.ad.smaato.net</string>
+<string>api.adthor.com</string>
+<string>api.adtimaserver.vn</string>
+<string>api.app1vn.com</string>
+<string>api.appodeal.com</string>
+<string>api.leanplum.com</string>
+<string>api.moblink.mob.com</string>
+<string>api.onesignal.com</string>
+<string>api.share.mob.com</string>
+<string>api.verify.mob.com</string>
+<string>api.zcoup.com</string>
+<string>apinas.nct.vn</string>
+<string>app.adjust.com</string>
+<string>applog.uc.cn</string>
+<string>as.ad-brix.com</string>
+<string>attr.appsflyer.com</string>
+<string>auction.unityads.unity3d.com</string>
+<string>bidmachine.io</string>
+<string>bs.serving-sys.com</string>
+<string>bugly.qq.com</string>
+<string>buttons-config.sharethis.com</string>
+<string>c.adsco.re</string>
+<string>c.statcounter.com</string>
+<string>c1.popads.net</string>
+<string>c2.popads.net</string>
+<string>c4d-cdn.adcolony.com</string>
+<string>campaign.ad-brix.com</string>
+<string>cdn-akamai.unityads.unity3d.com</string>
+<string>cdn.appnext.com</string>
+<string>cdn.appsflyer.com</string>
+<string>cdn.bootcss.com</string>
+<string>cdnappicons.appsflyer.com</string>
+<string>cdp.cloud.unity3d.com</string>
+<string>cf.iadsdk.apple.com</string>
+<string>click.startappservice.com</string>
+<string>config.ad-brix.com</string>
+<string>config.unityads.unity3d.com</string>
+<string>connect.tapjoy.com</string>
+<string>contenido1.midasplayer.com</string>
+<string>content.tapjoy.com</string>
+<string>count-server.sharethis.com</string>
+<string>crashlytics2.l.google.com</string>
+<string>d.adsplay.net</string>
+<string>d.applovin.com</string>
+<string>d.applvn.com</string>
+<string>dangky.mobifone.vn</string>
+<string>data.flurry.com</string>
+<string>devs.data.mob.com</string>
+<string>discovery.api.zaloapp.com</string>
+<string>dts.startappservice.com</string>
+<string>e.crashlytics.com</string>
+<string>ets-ap-southeast-1.track.smaato.net</string>
+<string>event.rubyfish.app</string>
+<string>events.appsflyer.com</string>
+<string>events3.adcolony.com</string>
+<string>events3alt.adcolony.com</string>
+<string>f.gm.mob.com</string>
+<string>g.eclick.vn</string>
+<string>gameeve.beacon.qq.com</string>
+<string>gamestr.beacon.qq.com</string>
+<string>gdmf.apple.com</string>
+<string>googleads.g.doubleclick.net</string>
+<string>gstaticadssl.l.google.com</string>
+<string>gum.criteo.com</string>
+<string>i-raovat.vnecdn.net</string>
+<string>images.startappservice.com</string>
+<string>imp.startappservice.com</string>
+<string>impact.applifier.com</string>
+<string>impression.appsflyer.com</string>
+<string>infoevent.startappservice.com</string>
+<string>init.sms.mob.com</string>
+<string>init.startappservice.com</string>
+<string>init.supersonicads.com</string>
+<string>ios.bugly.qq.com</string>
+<string>is-gateway.supersonicads.com</string>
+<string>jianchiapp.com</string>
+<string>kaymopk.com</string>
+<string>l.gm.mob.com</string>
+<string>l.sharethis.com</string>
+<string>live.chartboost.com</string>
+<string>log.adtimaserver.vn</string>
+<string>log.api.zaloapp.com</string>
+<string>log.baomoi.com</string>
+<string>log.eclick.vn</string>
+<string>log.sdk.zadn.vn</string>
+<string>log.sms.mob.com</string>
+<string>log.umsns.com</string>
+<string>log4x.nixcdn.com</string>
+<string>logger.adthor.com</string>
+<string>logger.zcoup.com</string>
+<string>lrc.nct.nixcdn.com</string>
+<string>mavq.net</string>
+<string>mesu.apple.com</string>
+<string>mpay.nct.vn</string>
+<string>ms.applovin.com</string>
+<string>ms.applvn.com</string>
+<string>mvas.mobifone.vn</string>
+<string>net.rayjump.com</string>
+<string>ng-vn-notice.gameitop.com</string>
+<string>ocsp.apple.com</string>
+<string>onelink.appsflyer.com</string>
+<string>org.zaloapp.ads.zdn.vn</string>
+<string>outcome-ssp.supersonicads.com</string>
+<string>p.midasplayer.com</string>
+<string>pagead2.googlesyndication.com</string>
+<string>pagead46.l.doubleclick.net</string>
+<string>placements.tapjoy.com</string>
+<string>platform-api.sharethis.com</string>
+<string>platform-cdn.sharethis.com</string>
+<string>plbslog.umeng.com</string>
+<string>pokkt.fuse-ad.com</string>
+<string>proton.flurry.com</string>
+<string>publisher-config.unityads.unity3d.com</string>
+<string>register.appsflyer.com</string>
+<string>reports.crashlytics.com</string>
+<string>req.startappservice.com</string>
+<string>rpc.tapjoy.com</string>
+<string>rt.applovin.com</string>
+<string>rt.applvn.com</string>
+<string>rv-gateway.supersonicads.com</string>
+<string>s.eclick.vn</string>
+<string>sb.scorecardresearch.com</string>
+<string>sdk.appsflyer.com</string>
+<string>sec.umeng.com</string>
+<string>serve.popads.net</string>
+<string>servicelayer.king.com</string>
+<string>setting.rayjump.com</string>
+<string>settings.crashlytics.com</string>
+<string>shop.zaloapp.com</string>
+<string>ssl.google-analytics.com</string>
+<string>static.doubleclick.net</string>
+<string>static.eclick.vn</string>
+<string>stats.appsflyer.com</string>
+<string>stc-nas.nixcdn.com</string>
+<string>stc.za.zaloapp.com</string>
+<string>supersonicads-a.akamaihd.net</string>
+<string>t.appsflyer.com</string>
+<string>tok.leadloss.com</string>
+<string>tpc.googlesyndication.com</string>
+<string>track.clickhubs.com</string>
+<string>tracking.ad-brix.com</string>
+<string>tracking.prd.mz.internal.unity3d.com</string>
+<string>trk.superads.cn</string>
+<string>tvnotice.kg.garena.vn</string>
+<string>ulogs.umeng.com</string>
+<string>ulogs.umengcloud.com</string>
+<string>ulogs.umengcloud.com.gds.alibabadns.com</string>
+<string>unilog.wostore.cn</string>
+<string>vta.nixcdn.com</string>
+<string>wd.adcolony.com</string>
+<string>webview.unityads.unity3d.com</string>
+<string>ws.tapjoyads.com</string>
+<string>www.adtilt.com</string>
+<string>www.cvsuqfsul.com</string>
+<string>www.google-analytics.com</string>
+<string>www.googleadservices.com</string>
+<string>www.googletagmanager.com</string>
+<string>www.googletagservices.com</string>
+<string>www.statcounter.com</string>
+<string>www.twpejojsim.com</string>
+<string>www.vungle.com</string>
+<string>x.appbaqend.com</string>
+<string>xp.apple.com</string>
+<string>z.moatads.com</string>
+<string>zalo-ads-td.zadn.vn</string>
+<string>zalo-ads.zadn.vn</string>
+<string>zplayer.trk.zapps.vn</string>
+<string>ztevents.zaloapp.com</string>
 									
 									</array>
 									<key>DomainAction</key>
